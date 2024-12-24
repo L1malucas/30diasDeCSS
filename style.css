@@ -17,8 +17,8 @@ body{
 }
 
 .principal__lista__item{
-    padding: 2% 2%;
-    gap: 1.8rem;
+    padding: 2% 1%;
+    gap: 5px;
     display: flex;
     list-style: none;
     align-items: center;
@@ -29,7 +29,19 @@ body{
     font-family: "Roboto Slab", serif;
     background-color: white;
     color: #f4742c;
-    border-radius: 1rem;
+    border-radius: 0.2rem;
     border: 2px solid black;
     padding: 0.5%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    transform: translateY(22rem);
+}
+
+.rodape__titulo{
+    font-size: 1.1rem;
+    font-family: "Roboto Slab", serif;
+    color: white;
 }

@@ -9,30 +9,103 @@ body{
     height: 100vh;
 }
 
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
 .principal{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 5.2rem;
+    margin: -2% 0%;
 }
 
-.principal span:nth-child(n){
-    
-}
 .principal__conteudo{
     margin-top: 25%;
 }
 
 .principal__conteudo__imagem{
     width: 5rem;
-    height: 4rem;
+    height: 3rem;
     transition-duration: 0.4s;
     transition-delay: 0s;
     cursor: pointer;
-    transform: skew(42deg, -5deg);
+    transform: skew(55deg, -20deg);
 }
 
 .principal__conteudo__imagem:hover{
-    transform: translateY(-2em) skew(42deg, -5deg);
-    box-shadow: -28px 30px 0px rgba(167, 162, 162, 0.753);
+    transform: translateY(-2.5em) skew(55deg, -20deg);
+    box-shadow: -34px 40px 0px rgba(157, 157, 160, 0.753);
+}
+
+.facebook:hover{
+    box-shadow: -9px 5px 0px rgba(60, 84, 156, 1),
+    -15px 10px 0px rgba(60, 84, 156, 0.8),
+    -21px 15px 0px rgba(60, 84, 156, 0.6),
+    -27px 20px 0px rgba(60, 84, 156, 0.4),
+    -32px 25px 0px rgba(60, 84, 156, 0.2),
+    -39px 30px 0px rgba(157, 157, 160, 0.753);
+}
+
+.twitter:hover{
+    box-shadow: -9px 5px 0px rgba(124, 204, 235, 1),
+    -15px 10px 0px rgba(124, 204, 235, 0.8),
+    -21px 15px 0px rgba(124, 204, 235, 0.6),
+    -27px 20px 0px rgba(124, 204, 235, 0.4),
+    -32px 25px 0px rgba(124, 204, 235, 0.2),
+    -39px 30px 0px rgba(157, 157, 160, 0.753);
+}
+
+.google:hover{
+    box-shadow: -9px 5px 0px rgba(220, 84, 68, 1),
+    -15px 10px 0px rgba(220, 84, 68, 0.8),
+    -21px 15px 0px rgba(220, 84, 68, 0.6),
+    -27px 20px 0px rgba(220, 84, 68, 0.4),
+    -32px 25px 0px rgba(220, 84, 68, 0.2),
+    -39px 30px 0px rgba(157, 157, 160, 0.753);
+}
+
+.linkedin:hover{
+    box-shadow: -9px 5px 0px rgba(4, 116, 180, 1),
+    -15px 10px 0px rgba(4, 116, 180, 0.8),
+    -21px 15px 0px rgba(4, 116, 180, 0.6),
+    -27px 20px 0px rgba(4, 116, 180, 0.4),
+    -32px 25px 0px rgba(4, 116, 180, 0.2),
+    -39px 30px 0px rgba(157, 157, 160, 0.753);
+}
+
+.instagram:hover{
+    box-shadow: -9px 5px 0px rgba(251, 163, 203, 1),
+    -15px 10px 0px rgba(251, 163, 203, 0.8),
+    -21px 15px 0px rgba(251, 163, 203, 0.6),
+    -27px 20px 0px rgba(251, 163, 203, 0.4),
+    -32px 25px 0px rgba(251, 163, 203, 0.2),
+    -39px 30px 0px rgba(157, 157, 160, 0.753);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    transform: translateY(10rem);
+}
+
+.rodape__titulo{
+    font-size: 1.1rem;
+    font-family: "Roboto Slab", serif;
+    color: #f4742c;
 }
