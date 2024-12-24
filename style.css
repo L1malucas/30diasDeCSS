@@ -17,7 +17,7 @@ body{
 }
 
 .principal__lista__item{
-    padding: 2% 1%;
+    padding: 0.5% 1%;
     gap: 5px;
     display: flex;
     list-style: none;
