@@ -10,7 +10,7 @@ Fala Devs, beleza? 🖖
 
 ## Tabela de Pontuação
 
-2 pontos semanais: 1 ponto por conclusão do desafio, 1 ponto por comunicação.
+2 pontos semanais: 1 ponto por conclusão dos desafios da semana, 1 ponto por comunicação.
 | Semana | Davi | Mate | Vini |  
 |--------|------|------|------|  
 | Semana 1 | 0 | 2 | 1 |  
@@ -43,6 +43,7 @@ Fala Devs, beleza? 🖖
 - [Dia 02 - Loader animado](#id02)
 - [Dia 03 - Mudança de cor de texto quando entra em outra div](#id03)
 - [Dia 04 - Botão com efeito](#id04)
+- [Prática de CSS](#id31)
 
 ### Semana 2
 
@@ -50,6 +51,7 @@ Fala Devs, beleza? 🖖
 - [Dia 06 - Efeito lightning text](#id06)
 - [Dia 07 - Preloader animado](#id07)
 - [Dia 08 - Coração batendo](#id08)
+- [Prática de CSS](#id32)
 
 ### Semana 3
 
@@ -57,6 +59,7 @@ Fala Devs, beleza? 🖖
 - [Dia 10 - Animação texto alternando](#id10)
 - [Dia 11 - Botão com efeito hover](#id11)
 - [Dia 12 - Efeito de preenchimento ao passar o mouse](#id12)
+- [Prática de CSS](#id33)
 
 ### Semana 4
 
@@ -64,6 +67,7 @@ Fala Devs, beleza? 🖖
 - [Dia 14 - Fundo de texto animado](#id14)
 - [Dia 15 - Texto flutuante](#id15)
 - [Dia 16 - Botão com efeito](#id16)
+- [Prática de CSS](#id34)
 
 ### Semana 5
 
@@ -71,6 +75,7 @@ Fala Devs, beleza? 🖖
 - [Dia 18 - Texto esfumaçado](#id18)
 - [Dia 19 - Efeitos de animação de fundo de partículas](#id19)
 - [Dia 20 - Botão com efeito](#id20)
+- [Prática de CSS](#id35)
 
 ### Semana 6
 
@@ -78,6 +83,7 @@ Fala Devs, beleza? 🖖
 - [Dia 22 - Icones com efeito](#id22)
 - [Dia 23 - Botão com efeito hover](#id23)
 - [Dia 24 - Preloader animado](#id24)
+- [Prática de CSS](#id36)
 
 ### Semana 7
 
@@ -85,12 +91,18 @@ Fala Devs, beleza? 🖖
 - [Dia 26 - Loading com efeito](#id26)
 - [Dia 27 - Efeito pulsar](#id27)
 - [Dia 28 - Cor do background mudando](#id28)
+- [Prática de CSS](#id37)
 
 ### Semana 8
 
 - [Dia 29 - Menu responsivo com Media Queries](#id29)
 - [Dia 30 - Fogos de artificio](#id30)
 - Dia 31 - Apostila 3
+- [Prática de CSS](#id38)
+
+---
+
+# Desafios de Interação
 
 ## Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
 
@@ -99,11 +111,11 @@ Fala Devs, beleza? 🖖
 ##### O você deve aprender
 
 - _Criar as camadas utilizando a tag `<span>`_
-- _tranformação 2D ou 3D de um elemento [aqui](https://www.w3schools.com/cssref/css3_pr_transform.asp)_
-- _[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)_
-- _[Opacidade / transparência do CSS](https://www.w3schools.com/css/css_image_transparency.asp)_
-- _[hover](https://www.w3schools.com/cssref/sel_hover.asp)_
-- _[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)_
+- _tranformação 2D ou 3D de um elemento [aqui](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)_
+- _[Transições CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)_
+- _[Opacidade / transparência do CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/opacity)_
+- _[hover](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover)_
+- _[nth-child ()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)_
 
 ## Desafio dia 02 - Loader animado <a name="id02"></a>
 
@@ -111,16 +123,16 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
 
-<img src="Desafios/dia 03/gif/dia03.gif">
+<img src="./dia03.gif">
 
 ##### Dicas
 
-- _[CSS Overflow](https://www.w3schools.com/css/css_overflow.asp)_
-- _Use [animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[CSS Overflow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/overflow)_
+- _Use [animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 04 - Botão com efeito <a name="id04"></a>
 
@@ -128,11 +140,11 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[:hover](https://www.w3schools.com/cssref/sel_hover.asp)_
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[::after](https://www.w3schools.com/cssref/sel_after.asp)_
-- _[Transições ](https://www.w3schools.com/css/css3_transitions.asp)_
-- _[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)_
+- _[:hover](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[::after](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)_
+- _[Transições](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)_
+- _[transformação](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)_
 
 ## Desafio dia 05 - Efeito pulsar <a name="id05"></a>
 
@@ -140,8 +152,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
-- _[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
+- _[transformação](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)_
 
 ## Desafio dia 06 - Efeito lightning text <a name="id06"></a>
 
@@ -149,8 +161,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
-- _[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
+- _[nth-child ()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)_
 
 ## Desafio dia 07 - Preloader animado <a name="id07"></a>
 
@@ -158,8 +170,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
-- _[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
+- _[nth-child ()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)_
 
 ## Desafio dia 08 - Coração batendo <a name="id08"></a>
 
@@ -167,9 +179,9 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[::after](https://www.w3schools.com/cssref/sel_after.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[::after](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 09 - Pendulo de Newton <a name="id09"></a>
 
@@ -177,11 +189,11 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[::after](https://www.w3schools.com/cssref/sel_after.asp)_
-- _[first-child](https://www.w3schools.com/cssref/sel_firstchild.asp)_
-- _[last-child](https://www.w3schools.com/cssref/sel_last-child.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[::after](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)_
+- _[first-child](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:first-child)_
+- _[last-child](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:last-child)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 10 - Animação texto alternando <a name="id10"></a>
 
@@ -189,8 +201,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 11 - Botão com efeito hover <a name="id11"></a>
 
@@ -198,11 +210,11 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[:hover](https://www.w3schools.com/cssref/sel_hover.asp)_
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[Overflow](https://www.w3schools.com/css/css_overflow.asp)_
-- _[Transições ](https://www.w3schools.com/css/css3_transitions.asp)_
-- _[z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)_
+- _[:hover](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[Overflow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/overflow)_
+- _[Transições](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)_
+- _[z-index](https://developer.mozilla.org/pt-BR/docs/Web/CSS/z-index)_
 
 ## Desafio dia 12 - Efeito de preenchimento ao passar o mouse<a name="id12"></a>
 
@@ -210,9 +222,9 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[:hover](https://www.w3schools.com/cssref/sel_hover.asp)_
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[Transições ](https://www.w3schools.com/css/css3_transitions.asp)_
+- _[:hover](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[Transições](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)_
 
 ## Desafio dia 13 - Loading com efeito<a name="id13"></a>
 
@@ -220,8 +232,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
-- _[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
+- _[nth-child ()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)_
 
 ## Desafio dia 14 - Fundo de texto animado<a name="id14"></a>
 
@@ -229,8 +241,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[background-clip](https://www.w3schools.com/cssref/css3_pr_background-clip.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[background-clip](https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-clip)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 15 - Texto flutuante<a name="id15"></a>
 
@@ -238,8 +250,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[transformação](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 16 - Botão com efeito <a name="id16"></a>
 
@@ -247,10 +259,10 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[:hover](https://www.w3schools.com/cssref/sel_hover.asp)_
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)_
-- _[Transições ](https://www.w3schools.com/css/css3_transitions.asp)_
+- _[:hover](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[transformação](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)_
+- _[Transições](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)_
 
 ## Desafio dia 17 - Loader animado<a name="id17"></a>
 
@@ -258,7 +270,7 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 18 - Texto esfumaçado<a name="id18"></a>
 
@@ -266,9 +278,9 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)_
-- _[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)_
-- _[:hover](https://www.w3schools.com/cssref/sel_hover.asp)_
+- _[nth-child ()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)_
+- _[transformação](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)_
+- _[:hover](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover)_
 
 ## Desafio dia 19 - Efeitos de animação fundo de partículas <a name="id19"></a>
 
@@ -276,9 +288,9 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)_
-- _[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[nth-child ()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)_
+- _[transformação](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 - _[variáveis CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties)_
 
 ## Desafio dia 20 - Botão com efeito <a name="id20"></a>
@@ -287,10 +299,10 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[:hover](https://www.w3schools.com/cssref/sel_hover.asp)_
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)_
-- _[Transições ](https://www.w3schools.com/css/css3_transitions.asp)_
+- _[:hover](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[transformação](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)_
+- _[Transições](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)_
 
 ## Desafio dia 21 - Esferas quicando <a name="id21"></a>
 
@@ -298,8 +310,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[nth-child ()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 22 - Icones com efeito <a name="id22"></a>
 
@@ -307,10 +319,10 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[::after](https://www.w3schools.com/cssref/sel_after.asp)_
-- _[:hover](https://www.w3schools.com/cssref/sel_hover.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[::after](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)_
+- _[:hover](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 23 - Botão com efeito <a name="id23"></a>
 
@@ -318,8 +330,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[:hover](https://www.w3schools.com/cssref/sel_hover.asp)_
-- _[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)_
+- _[:hover](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:hover)_
+- _[transformação](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)_
 
 ## Desafio dia 24 - Preloader animado <a name="id24"></a>
 
@@ -327,8 +339,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
-- _[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
+- _[nth-child ()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)_
 
 ## Desafio dia 25 - checkbox animado <a name="id25"></a>
 
@@ -336,8 +348,8 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 26 - Loading com efeito<a name="id26"></a>
 
@@ -345,9 +357,9 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[::after](https://www.w3schools.com/cssref/sel_after.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[::after](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 27 - Efeito pulsar<a name="id27"></a>
 
@@ -355,9 +367,9 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[::after](https://www.w3schools.com/cssref/sel_after.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[::after](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 28 - cor do background mudando<a name="id28"></a>
 
@@ -365,7 +377,7 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
 
 ## Desafio dia 29 - Menu responsivo com Media Queries<a name="id29"></a>
 
@@ -381,7 +393,169 @@ Fala Devs, beleza? 🖖
 
 ##### O você deve aprender
 
-- _[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)_
-- _[::before](https://www.w3schools.com/cssref/sel_before.asp)_
-- _[::after](https://www.w3schools.com/cssref/sel_after.asp)_
-- _[animations](https://www.w3schools.com/css/css3_animations.asp)_
+- _[nth-child ()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)_
+- _[::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)_
+- _[::after](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)_
+- _[animations](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Animations/Using_CSS_animations)_
+
+---
+
+# Desafios de Desenhos com CSS
+
+### Semana 1 <a name="id31"></a>
+
+1. **Dia 1: Sol 🌞**
+
+   - **Objetivo:** Criar um círculo amarelo com bordas arredondadas e efeitos de brilho. Adicionar raios usando pseudo-elementos.
+   - **Conceitos:** `border-radius`, `box-shadow`, `transform`, posicionamento absoluto.
+
+2. **Dia 2: Nuvem ☁️**
+
+   - **Objetivo:** Construir uma nuvem combinando múltiplos círculos sobrepostos.
+   - **Conceitos:** `border-radius`, `position`, alinhamento com flexbox.
+
+3. **Dia 3: Casa 🏠**
+
+   - **Objetivo:** Criar uma casa simples usando formas básicas como retângulos e triângulos.
+   - **Conceitos:** `border`, `clip-path`, combinação de formas geométricas.
+
+4. **Dia 4: Árvore 🌳**
+   - **Objetivo:** Representar uma árvore com uma copa circular e um tronco retangular.
+   - **Conceitos:** `border-radius`, cores básicas (`background-color`).
+
+### Semana 2 <a name="id32"></a>
+
+5. **Dia 5: Coração ❤️**
+
+   - **Objetivo:** Formar um coração combinando dois círculos e um quadrado rotacionado.
+   - **Conceitos:** `border-radius`, `transform: rotate`, pseudo-elementos.
+
+6. **Dia 6: Olho 👁️**
+
+   - **Objetivo:** Desenhar um olho com círculos concêntricos e gradientes para simular profundidade.
+   - **Conceitos:** `border-radius`, `linear-gradient`, centralização.
+
+7. **Dia 7: Montanha ⛰️**
+
+   - **Objetivo:** Criar montanhas usando formas triangulares e gradientes para sombras.
+   - **Conceitos:** `clip-path`, gradientes (`linear-gradient`).
+
+8. **Dia 8: Balão 🎈**
+   - **Objetivo:** Fazer um balão com um círculo grande e uma corda conectada.
+   - **Conceitos:** `border-radius`, `position`, `hover`.
+
+### Semana 3 <a name="id33"></a>
+
+9. **Dia 9: Xícara de Café ☕**
+
+   - **Objetivo:** Desenhar uma xícara simples com alça e sombra.
+   - **Conceitos:** `border-radius`, `box-shadow`, `position`.
+
+10. **Dia 10: Peixe 🐟**
+
+    - **Objetivo:** Formar um peixe estilizado usando triângulos e círculos.
+    - **Conceitos:** `clip-path`, `border-radius`, alinhamento com `position`.
+
+11. **Dia 11: Arco-Íris 🌈**
+
+    - **Objetivo:** Criar um arco-íris colorido com gradientes ou múltiplos arcos sobrepostos.
+    - **Conceitos:** `linear-gradient`, `conic-gradient`, alinhamento com `flexbox`.
+
+12. **Dia 12: Gato 🐱**
+    - **Objetivo:** Desenhar o rosto de um gato com orelhas, olhos e bigodes.
+    - **Conceitos:** Pseudo-elementos (`before` e `after`), formas geométricas simples.
+
+### Semana 4 <a name="id34"></a>
+
+13. **Dia 13: Pássaro 🐦**
+
+    - **Objetivo:** Criar um pássaro estilizado usando formas geométricas e sombras.
+    - **Conceitos:** `border-radius`, posicionamento absoluto, `box-shadow`.
+
+14. **Dia 14: Robô 🤖**
+
+    - **Objetivo:** Construir um robô com uma cabeça retangular e detalhes como antenas e botões.
+    - **Conceitos:** Formas retangulares, bordas arredondadas, gradientes para textura.
+
+15. **Dia 15: Avião ✈️**
+
+    - **Objetivo:** Representar um avião usando triângulos para asas e um corpo retangular.
+    - **Conceitos:** `clip-path`, alinhamento com `position`, `rotate`.
+
+16. **Dia 16: Borboleta 🦋**
+    - **Objetivo:** Desenhar uma borboleta com asas simétricas e um corpo central.
+    - **Conceitos:** `transform`, `rotate`, pseudo-elementos.
+
+### Semana 5 <a name="id35"></a>
+
+17. **Dia 17: Carro 🚗**
+
+    - **Objetivo:** Construir um carro com rodas circulares e um corpo retangular.
+    - **Conceitos:** `border-radius`, gradientes para profundidade, centralização.
+
+18. **Dia 18: Relógio ⏰**
+
+    - **Objetivo:** Criar um relógio com ponteiros animados.
+    - **Conceitos:** `@keyframes`, posicionamento absoluto, centralização.
+
+19. **Dia 19: Flor 🌸**
+
+    - **Objetivo:** Representar uma flor com pétalas circulares organizadas radialmente.
+    - **Conceitos:** `transform: rotate`, gradientes, pseudo-elementos.
+
+20. **Dia 20: Livro 📖**
+    - **Objetivo:** Desenhar um livro aberto com páginas e sombras.
+    - **Conceitos:** `box-shadow`, posicionamento, `transform`.
+
+### Semana 6 <a name="id36"></a>
+
+21. **Dia 21: Cachorro 🐶**
+
+    - **Objetivo:** Representar um cachorro com detalhes como orelhas, olhos e nariz.
+    - **Conceitos:** Pseudo-elementos, combinação de formas geométricas.
+
+22. **Dia 22: Cidade 🏙️**
+
+    - **Objetivo:** Criar um skyline de prédios com diferentes alturas e janelas iluminadas.
+    - **Conceitos:** `grid`, `box-shadow`, gradientes.
+
+23. **Dia 23: Castelo 🏰**
+
+    - **Objetivo:** Construir um castelo com torres, bandeiras e portões.
+    - **Conceitos:** `clip-path`, detalhes com pseudo-elementos, gradientes.
+
+24. **Dia 24: Dragão 🐉**
+    - **Objetivo:** Criar um dragão detalhado com corpo ondulado e asas.
+    - **Conceitos:** Animações, pseudo-elementos, bordas complexas.
+
+### Semana 7 <a name="id37"></a>
+
+25. **Dia 25: Barco 🚤**
+
+    - **Objetivo:** Representar um barco com formas geométricas simples e gradientes para água.
+    - **Conceitos:** `border-radius`, gradientes, alinhamento com flexbox.
+
+26. **Dia 26: Mandala 🌀**
+
+    - **Objetivo:** Criar uma mandala com padrões simétricos e coloridos.
+    - **Conceitos:** `transform: rotate`, `clip-path`, gradientes.
+
+27. **Dia 27: Planeta 🌍**
+
+    - **Objetivo:** Desenhar um planeta com continentes estilizados e gradientes.
+    - **Conceitos:** `radial-gradient`, pseudo-elementos para detalhes.
+
+28. **Dia 28: Computador 💻**
+    - **Objetivo:** Criar um computador com tela, teclado e sombras para profundidade.
+    - **Conceitos:** Formas geométricas, `box-shadow`, bordas arredondadas.
+
+### Semana 8 <a name="id38"></a>
+
+29. **Dia 29: Jogo da Velha (interativo)**
+
+    - **Objetivo:** Criar um tabuleiro interativo de jogo da velha com efeito de hover.
+    - **Conceitos:** `hover`, animações (`transition`), `grid`.
+
+30. **Dia 30: Personagem Pixelado**
+    - **Objetivo:** Representar um personagem em estilo pixel art usando uma grade de blocos.
+    - **Conceitos:** `grid`, alinhamento, cores sólidas.
