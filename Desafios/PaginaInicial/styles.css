@@ -1,0 +1,29 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(20, 20, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabecalho {
+     padding: 0% 3% ; 
+    background-color: rgb(17, 226, 111);
+    
+}
+
+.botoes {
+    border: solid;
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 6%;
+    text-decoration: none;
+}
+
+.subtitulo { 
+    padding: 1% 5%;
+    text-align: center;
+    color: rgb(17, 226, 111); 
+}
+
+
