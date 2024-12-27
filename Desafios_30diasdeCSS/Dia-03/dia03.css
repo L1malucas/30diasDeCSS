@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #ebfab3;
+}
+
+.direito {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    background-color: #e3445b;
+}
+
+h2{
+    position: absolute;
+    font-size: 100px;
+    margin-top: 45%;
+    animation-name: slidein;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slidein{
+    0% {
+        transform: translateX(100vw);
+    }
+    50% {
+        color: #ebfab3;
+    }
+    100% {
+        transform: translateX(-40vw);
+    }
+}
