@@ -15,9 +15,11 @@
     border: solid;
     border-radius: 4px;
     color: rgb(17, 226, 111);
-    padding: 0% 3%;
-    margin: 0% 6%;
+    padding: 5px 10px;  /* Ajuste o padding para ficar colado ao texto */
+    margin: 10px 0;  /* Adiciona espaçamento entre os botões */
     text-decoration: none;
+    display: block;  /* Faz os botões ficarem em blocos (um abaixo do outro) */
+    text-align: center;
 }
 
 .subtitulo { 

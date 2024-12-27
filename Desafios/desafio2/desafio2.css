@@ -1,0 +1,90 @@
+/* Ajuste do cabeçalho */
+.cabecalho {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(17, 226, 111);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;  /* Garante que o cabeçalho ocupe toda a largura */
+    z-index: 1000;
+    box-sizing: border-box;
+    text-align: center;
+    height: 60px; /* Definindo uma altura para o cabeçalho */
+}
+
+/* Centralização do conteúdo no body */
+body {
+    padding-top: 60px;  /* Para evitar que o conteúdo fique escondido atrás do cabeçalho fixo */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  /* Centraliza todos os elementos */
+    min-height: 100vh; /* Garante que a altura da tela seja pelo menos 100% */
+    margin: 0; /* Remove a margem padrão */
+    overflow: hidden;  /* Evita o scroll da página */
+}
+
+/* Contêiner para o botão alinhado à esquerda */
+.botao-container {
+    width: 100%; /* Faz o botão ocupar toda a largura da tela */
+    padding-left: 20px;  /* Alinha o botão à esquerda */
+}
+
+/* Estilo do botão */
+.botoes {
+    border: solid 1px rgb(17, 226, 111);  /* Borda única de 1px */
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    text-decoration: none;
+    display: block;  /* Faz o botão ocupar uma linha inteira */
+    padding: 10px 20px;
+    margin: 10px 0;  /* Adiciona espaço entre os botões */
+    text-align: left;  /* Alinha o texto dentro do botão à esquerda */
+    width: auto;
+}
+
+/* Estilos para a tela de carregamento */
+.tela__de__carregamento {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20%;  /* Ajuste da posição do carregamento */
+    flex-direction: column;
+}
+
+/* Estilo do círculo de carregamento */
+.circulo {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border-top: 5px dotted rgb(17, 226, 111);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    animation: girar 1s linear infinite;
+}
+
+/* Estilo do texto de carregamento */
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: rgb(17, 226, 111);
+    text-align: center;
+}
+
+/* Animação do círculo */
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
