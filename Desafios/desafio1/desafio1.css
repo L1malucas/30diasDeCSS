@@ -4,6 +4,11 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+    background-color: rgb(14, 14, 14);
+    min-width: 300px;
+    max-width: 1000;
+}
 .botoes {
     border: solid;
     border-radius: 4px;
@@ -19,13 +24,6 @@
     gap: 32px;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(14, 14, 14);
-    min-width: 300px;
-    max-width: 1000;
-}
 
 .box {
     

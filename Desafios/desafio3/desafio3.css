@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Container para as caixas */
+.container {
+    height: 100vh;
+
+}
+
+
+
+.animated-text {
+    font-size: 2rem;
+    font-weight: bold;
+    
+    animation: colorChange 4s ease-in-out infinite, moveText 4s ease-in-out infinite;
+}
+
+.box1 {
+    background-color: rgb(235, 78, 78);
+    color: rgb(245, 245, 62);
+    width: 50%;
+    height: 50%;
+}
+
+.box2 {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(245, 245, 62);;
+    color: rgb(235, 78, 78) ;
+}
+
+
