@@ -1,0 +1,26 @@
+*{ 
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body { 
+    background-color: #272727; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    border: 4px solid;
+    border-radius: 4px;
+    color: rgb(17, 226, 111);;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+} 
+
+a:hover {
+    border: dotted;
+    transform: rotate(-50deg -30deg);
+}
