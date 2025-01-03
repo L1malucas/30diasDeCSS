@@ -14,7 +14,22 @@ body{
 }
 
 .principal__caixa{
-    padding: 10%;
-    background-color: yellow;
-    border-radius: 1rem;
+    padding: 6%;
+    transform: translateY(17.5rem);
+    background-color:rgba(244,158,18,1);
+    border-radius: 8rem;
+    box-shadow: 0px 0px 20px 55px rgba(244,158,18,0.6),
+    0px 0px 5px 40px rgba(244,158,18,0.5),
+    0px 0px 5px 20px rgba(244,158,18,0.7),
+    0px 0px 5px 10px rgba(255,140,0,9);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.principal__caixa:hover{
+    background-color: rgba(255, 144, 17, 0.979);
+    box-shadow: 0px 0px 20px 75px rgba(255, 144, 17, 0.70),
+    0px 0px 5px 50px rgba(255, 144, 17, 0.60),
+    0px 0px 5px 30px rgba(255, 144, 17, 0.55),
+    0px 0px 5px 15px rgba(255, 127, 23, 0.50);
 }
