@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal__caixa{
+    padding: 10%;
+    background-color: yellow;
+    border-radius: 1rem;
+}
