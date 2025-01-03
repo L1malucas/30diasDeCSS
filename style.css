@@ -11,6 +11,15 @@ body{
     color: white;
     font-family: "Roboto Slab", serif;
 }
+
+.principal__links{
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap: nowrap;
+    gap: 20%;
+    margin-top: 3%;
+}
+
 .principal__titulo{
     margin-top: 2%;
     text-align: center;
@@ -32,6 +41,23 @@ body{
     border-radius: 0.2rem;
     border: 2px solid black;
     padding: 0.5%;
+}
+
+.principal__desafios__item{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.principal__desafios__botao{
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    background-color: white;
+    color: #f4742c;
+    border-radius: 0.2rem;
+    border: 2px solid black;
+    padding: 1.5%;
 }
 
 .rodape{
