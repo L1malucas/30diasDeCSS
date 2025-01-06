@@ -1,45 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
-    box-sizing: border-box;
-    background-color: #232524;
-    width: 100vw;
-    height: 100vh;
-}
-
-.botao{
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
-}
-
-.botao__home{
-    text-decoration: none;
-    pointer-events: auto;
-    font-family: "Roboto Slab", serif;
-    font-size: 1.5rem;
-    color:#f4742c;
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 0.2rem;
-    padding: 1%;
-}
-
-.principal__conteudo{
-    display: flex;
-    justify-content: center;
-    gap: 1.2rem;
-    padding: 14% 0%;
-}
-
 .principal__conteudo span:nth-child(1){
     animation-name: tint;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .principal__conteudo span:nth-child(2){
@@ -112,49 +74,4 @@ body{
     animation-name: tint;
     animation-delay: 8.4s;
     animation-duration: 0.5s;
-}
-
-@keyframes tint{
-    0%{
-        color: #55575642;
-    }
-    3%{
-        color: #f4742c;
-    }
-    97%{
-        color: #55575642;
-    }
-    100%{
-        color: #55575642;
-    }
-}
-
-.principal__titulo{
-    font-family: "Rubik", serif;
-    font-weight: 600;
-    color: #55575642;
-    font-size: 7.5rem;
-}
-
-.rodape{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 9rem;
-}
-
-.rodape__titulo{
-    color: white;
-}
-
-.rodape__link{
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    text-decoration: none;
-    color: white;
-}
-
-.rodape__link__logo{
-    width: 2rem;
 }
