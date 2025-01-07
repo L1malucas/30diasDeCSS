@@ -26,6 +26,26 @@ body{
     padding: 1%;
 }
 
+.principal{
+    display: flex;
+    justify-content: center;
+    padding: 8% 15%;
+    margin: 0px 400px
+}
+
+.principal__conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.principal__conteudo__caixa{
+    padding: 3.2rem;
+    background-color: white;
+    border-radius: 0.7rem;
+}
+
 .rodape{
     display: flex;
     justify-content: center;
