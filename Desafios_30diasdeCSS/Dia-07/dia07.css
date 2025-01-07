@@ -46,6 +46,84 @@ body{
     border-radius: 0.7rem;
 }
 
+.esquerdo__superior{
+    animation-name: movefirst;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(0.5, end);
+}
+
+@keyframes movefirst{
+   0%{
+        transform: translateX(0px);
+   }
+   25%{
+        transform: translateX(150px);
+   }
+   50%{
+        transform: translate(150px, 150px);
+   }
+   75%{
+        transform: translate(0px, 150px);
+   }
+   100%{
+        transform: translate(0px, 0px);
+   }
+}
+
+.direito__superior{
+    animation-name: movesecond;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(0.5, end);
+}
+
+@keyframes movesecond{
+    0%{
+        transform: translate(0px, 0px);
+   }
+   25%{
+        transform: translateY(150px);
+   }
+   50%{
+        transform: translate(-150px, 150px);
+   }
+   75%{
+        transform: translate(-150px, 0px);
+   }
+   100%{
+        transform: translate(0px, 0px);
+   }
+}
+
+.direito__inferior{
+    animation-name: lastmove;
+    animation-duration: 4s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(0.5, end);
+}
+
+@keyframes lastmove{
+    0%{
+        transform: translate(0px, 0px);
+   }
+   25%{
+        transform: translate(0px, -150px);
+   }
+   50%{
+        transform: translate(150px, -150px);
+   }
+   75%{
+        transform: translate(150px, 0px);
+   }
+   100%{
+        transform: translate(0px, 0px);
+   }
+}
+
+
 .rodape{
     display: flex;
     justify-content: center;
