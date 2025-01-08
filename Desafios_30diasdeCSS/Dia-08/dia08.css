@@ -44,8 +44,6 @@ body{
     animation-timing-function: linear;
 }
 
-/*matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())*/
-
 @keyframes pulse{
     0%{
         transform: matrix(1, 0, 0, 1, 0, 0);
