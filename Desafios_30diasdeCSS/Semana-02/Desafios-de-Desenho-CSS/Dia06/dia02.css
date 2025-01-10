@@ -55,6 +55,14 @@ body{
     transform: translate(8px,-110px);
 }
 
+.principal__conteudo__pupila{
+    padding: 1.7rem 1.2rem;
+    width: 1rem;
+    border-radius: 8rem;
+    background-color: rgb(0, 0, 0);
+    transform: translate(32px,-165px);;
+}
+
 .rodape{
     display: flex;
     justify-content: center;
