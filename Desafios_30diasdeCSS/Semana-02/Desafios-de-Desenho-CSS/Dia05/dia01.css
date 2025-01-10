@@ -13,6 +13,18 @@ body{
     margin-top: 3%;
 }
 
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
 .principal__conteudo{
     display: flex;
     padding: 10% 0%;
@@ -37,18 +49,6 @@ body{
 .principal__conteudo div:nth-child(3){
     border-radius: 5rem;
     transform: translate(-98px, 4px);
-}
-
-.botao__home{
-    text-decoration: none;
-    pointer-events: auto;
-    font-family: "Roboto Slab", serif;
-    font-size: 1.5rem;
-    color:#f4742c;
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 0.2rem;
-    padding: 1%;
 }
 
 .rodape{
