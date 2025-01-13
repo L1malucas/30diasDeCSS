@@ -22,10 +22,10 @@ section {
     border: solid;
     border-radius: 4px;
     color: rgb(17, 226, 111);
-    padding: 5px 10px;  /* Ajuste o padding para ficar colado ao texto */
-    margin: 10px 0;  /* Adiciona espaçamento entre os botões */
+    padding: 5px 10px;  
+    margin: 10px 0;  
     text-decoration: none;
-    display: block;  /* Faz os botões ficarem em blocos (um abaixo do outro) */
+    display: block;  
     text-align: center;
 }
 
