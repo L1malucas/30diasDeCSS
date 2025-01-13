@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+
+    background-color: #52f85b;
+}
+
+.titulo{
+    color: #2f3030;
+    display: grid;
+    justify-content: center;
+    
+}
+
+section{
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #201f1f;
+}
+
+h2{
+    display: flex;
+    color: #111;
+    font-weight: 600;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+
+h2 span{
+ 
+    animation: transiçao 6s linear infinite;
+}
+
+h2 span:nth-child(1){
+    animation-delay: 0.5s;
+}
+h2 span:nth-child(2){
+    animation-delay: 1s;
+}
+h2 span:nth-child(3){
+    animation-delay: 1.5s;
+}
+h2 span:nth-child(4){
+    animation-delay: 2s;
+}
+h2 span:nth-child(5){
+    animation-delay: 2.5s;
+}
+h2 span:nth-child(6){
+    animation-delay: 3s;
+}
+h2 span:nth-child(7){
+    animation-delay: 3.5s;
+}
+h2 span:nth-child(8){
+    animation-delay: 4s;
+}
+h2 span:nth-child(9){
+    animation-delay: 4.5s;
+}
+h2 span:nth-child(10){
+    animation-delay: 5s;
+}
+h2 span:nth-child(11){
+    animation-delay: 5.5s;
+}
+h2 span:nth-child(12){
+    animation-delay: 6s;
+}
+
+@keyframes transiçao{
+    0%,100%{
+        color: #52ee5a;
+                   
+    }
+
+    5%,95%{
+        color: #3f3d3c;
+        
+    }
+}
