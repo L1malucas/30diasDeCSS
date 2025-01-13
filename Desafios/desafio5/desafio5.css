@@ -1,12 +1,42 @@
+
+.botoes {
+    border: solid;
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 6%;
+    text-decoration: none;
+    gap: 32px;
+   
+}
+
+.cabecalho{
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 6%;
+    
+}
+
+.titulo{
+    color: #2f3030;
+    display: grid;
+    justify-content: center;
+    
+}
+
+
 body {
-    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #2e2e2e;
     position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
  
 .circulo {

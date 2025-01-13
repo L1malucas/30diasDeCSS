@@ -1,12 +1,26 @@
-*{
+body{
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #201f1f;
 }
 
-header{
+.botoes {
+    border: solid;
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 6%;
+    text-decoration: none;
+    gap: 32px;
+   
+}
 
-    background-color: #52f85b;
+.cabecalho{
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 6%;
+    
 }
 
 .titulo{
@@ -21,7 +35,6 @@ section{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #201f1f;
 }
 
 h2{
