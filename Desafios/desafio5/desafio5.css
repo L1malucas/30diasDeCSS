@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2e2e2e;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+.circulo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #36ff72;
+    position: absolute;
+    display: flex;
+    opacity: 1.0;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+ 
+}
+ 
+.pulse {
+    width: 150px;
+    height: 150px;
+    background-color: #36ff72;
+    border-radius: 50%;
+    animation: pulse-animation 3s infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #2e2e2e;
+}
+ 
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);  
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+    75%{
+        transform: scale(1.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+ 
