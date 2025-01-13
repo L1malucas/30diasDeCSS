@@ -26,6 +26,45 @@ body{
     padding: 1%;
 }
 
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8% 40%;
+}
+
+.principal__base{
+    padding: 1% 12%;
+    background-color: white;
+}
+
+.principal__conteudo{
+    display: flex;
+    padding-left: 10%;
+    gap: 60px;
+    list-style: none;
+}
+
+.principal__conteudo__item{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 3px;
+}
+
+
+.principal__conteudo__item__corda{
+    height: 180px;
+    background-color: white;
+}
+
+.principal__conteudo__item__esfera{
+    padding: 32px;
+    border-radius: 38px;
+    background-color: #ffffff;
+    transform: translate(-30px, -50px);
+}
+
 .rodape{
     display: flex;
     justify-content: center;
