@@ -7,3 +7,44 @@ body{
     box-sizing: border-box;
     background-color: #2c3c4c;
 }
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__titulo{
+    color: white;
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: white;
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}
