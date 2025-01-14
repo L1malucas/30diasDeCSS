@@ -5,6 +5,7 @@
 
 body{
     box-sizing: border-box;
+    background-color: #abfbf3;
 }
 
 .botao{
@@ -24,7 +25,6 @@ body{
     border-radius: 0.2rem;
     padding: 1%;
 }
-
 .rodape{
     display: flex;
     justify-content: center;
