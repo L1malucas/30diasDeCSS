@@ -103,7 +103,7 @@ li:first-child{
 
 li:last-child{
     animation-name: pendulumright;
-    animation-delay: 0.8s;
+    animation-delay: 0.7s;
     animation-duration: 1.4s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
