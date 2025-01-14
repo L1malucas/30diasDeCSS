@@ -1,26 +1,100 @@
-*{ 
-    margin: 0 0;
-    padding: 0 0;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #201f1f;
 }
 
-body { 
-    background-color: #272727; 
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-a {
-    border: 4px solid;
+.botoes {
+    border: solid;
     border-radius: 4px;
-    color: rgb(17, 226, 111);;
-    text-align: center;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 5%;
+    text-decoration: none;
+    gap: 32px;
+   
+}
+
+.cabecalho{
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 5%;
+    size: 100vh;
+}
+
+
+section{
+    display: flex;
     justify-content: center;
     align-items: center;
-    top: 50%;
-} 
+    height: 100vh;
+}
 
-a:hover {
-    border: dotted;
-    transform: rotate(-50deg -30deg);
+.desafio{
+    position: relative;
+    background-color: rgb(17, 226, 111);
+    color:rgb(17, 226, 111) ;
+    font-size: 2em;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+
+
+.desafio::before{
+    content: '';
+    position: absolute;
+    inset: 5px;
+    background-color: #201f1f;
+}
+
+.texto{
+    position: relative;
+    z-index: 0;
+}
+
+.border{
+    position: absolute;
+    inset: 0;
+    display: flex;
+}
+
+
+.border::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 22%;
+    width: 20px;
+    height: 5px;
+    background-color: #201f1f;
+    transform: translateX( -60%) skewX( 50deg);
+    transition: 1s;
+}
+
+
+.desafio:hover .border::before{
+    width: 20px;
+    left: 50%;
+}
+
+
+.border::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 78%;
+    width: 20px;
+    height: 5px;
+    background-color: #201f1f ;
+    transform: translateX( 100%) skewX( 50deg);
+    transition: 1s;
+}
+
+
+.desafio:hover .border::after{
+    width: 20px;
+    left: 50%;
 }

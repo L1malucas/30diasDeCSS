@@ -8,7 +8,7 @@
 section {
     margin: 5%;
     display: flex;
-    justify-content:center;
+    justify-content: space-between;
     grid-column: 50%;
 }
 

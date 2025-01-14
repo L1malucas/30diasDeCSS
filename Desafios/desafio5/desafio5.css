@@ -1,58 +1,60 @@
-
 .botoes {
     border: solid;
     border-radius: 4px;
     color: rgb(17, 226, 111);
-    padding: 0% 3%;
-    margin: 0% 6%;
+    padding: 0.5em 3%; /* Reduzi o padding para que o botão fique mais proporcional ao texto */
+    margin: 0;
     text-decoration: none;
-    gap: 32px;
-   
+    display: flex;
+    align-items: center; /* Garante que o botão fique alinhado ao texto */
+    gap: 10px; /* Reduzi o gap para não ficar tão espaçado */
 }
 
-.cabecalho{
-    background-color:rgb(17, 226, 111); 
-    gap: 32px;
-    padding: 0% 6%;
-    
+.cabecalho {
+    background-color: rgb(17, 226, 111);
+    padding: 10px 6%; /* Reduzi a altura do cabeçalho */
+    display: flex;
+    justify-content: space-between; /* Alinha o texto e o botão */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    width: 100%;
+    position: sticky; /* Fixa o cabeçalho no topo */
+    top: 0;
+    z-index: 10;
 }
 
-.titulo{
+.titulo {
     color: #2f3030;
-    display: grid;
-    justify-content: center;
-    
+    font-size: 1.5em; /* Ajustei o tamanho da fonte para uma proporção melhor */
+    text-align: left; /* Alinha o título à esquerda */
 }
-
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     height: 100vh;
-    margin: 0;
     background-color: #2e2e2e;
     position: relative;
-    
+    box-sizing: border-box;
 }
- 
+
 .circulo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     background-color: #36ff72;
-    position: absolute;
     display: flex;
     opacity: 1.0;
     align-items: center;
     justify-content: center;
     font-size: larger;
- 
+    margin-top: 20px; /* Deixa o círculo abaixo do cabeçalho */
 }
- 
+
 .pulse {
     width: 150px;
     height: 150px;
@@ -65,17 +67,17 @@ body {
     position: absolute;
     color: #2e2e2e;
 }
- 
+
 @keyframes pulse-animation {
     0% {
-        transform: scale(1);  
+        transform: scale(1);
         opacity: 0.5;
     }
     50% {
         transform: scale(1.5);
         opacity: 0.5;
     }
-    75%{
+    75% {
         transform: scale(1.5);
         opacity: 0;
     }
@@ -84,4 +86,3 @@ body {
         opacity: 0;
     }
 }
- 
