@@ -1,45 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(14, 14, 14);
+    min-width: 300px;
+    max-width: 1000;
+}
+
 .botoes {
     border: solid;
     border-radius: 4px;
     color: rgb(17, 226, 111);
-    padding: 0.5em 3%; /* Reduzi o padding para que o botão fique mais proporcional ao texto */
-    margin: 0;
+    padding: 0% 3%;
+    margin: 0% 6%;
     text-decoration: none;
-    display: flex;
-    align-items: center; /* Garante que o botão fique alinhado ao texto */
-    gap: 10px; /* Reduzi o gap para não ficar tão espaçado */
+    gap: 32px;
 }
 
-.cabecalho {
-    background-color: rgb(17, 226, 111);
-    padding: 10px 6%; /* Reduzi a altura do cabeçalho */
-    display: flex;
-    justify-content: space-between; /* Alinha o texto e o botão */
-    align-items: center; /* Alinha o conteúdo verticalmente */
-    width: 100%;
-    position: sticky; /* Fixa o cabeçalho no topo */
-    top: 0;
-    z-index: 10;
-}
-
-.titulo {
-    color: #2f3030;
-    font-size: 1.5em; /* Ajustei o tamanho da fonte para uma proporção melhor */
-    text-align: left; /* Alinha o título à esquerda */
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    background-color: #2e2e2e;
-    position: relative;
-    box-sizing: border-box;
+.cabecalho{
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 6%;
 }
 
 .circulo {
@@ -49,10 +33,10 @@ body {
     background-color: #36ff72;
     display: flex;
     opacity: 1.0;
+    font-size: larger;
+    margin: 10% auto;
     align-items: center;
     justify-content: center;
-    font-size: larger;
-    margin-top: 20px; /* Deixa o círculo abaixo do cabeçalho */
 }
 
 .pulse {
@@ -61,11 +45,9 @@ body {
     background-color: #36ff72;
     border-radius: 50%;
     animation: pulse-animation 3s infinite;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     color: #2e2e2e;
+    
 }
 
 @keyframes pulse-animation {
