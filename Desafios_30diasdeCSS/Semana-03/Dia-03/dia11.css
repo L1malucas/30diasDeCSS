@@ -30,18 +30,19 @@ body{
 .principal__conteudo{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 11%;
 }
 
 .principal__conteudo__caixa{
+    padding: 2%;
     border: 2px solid #2bab80;
-    padding: 2.5%;
 }
 
-.principal__conteudo__caixa__titulo{
-    font-family: "Montserrat", serif;
-    font-weight: 500;
-    color: #2bab80;
+.principal__conteudo__box{
+    padding: 2%;
+    background-color: #2bab80;
+    z-index: 1;
 }
 
 .rodape{
