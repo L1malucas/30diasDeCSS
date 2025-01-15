@@ -25,6 +25,14 @@ body{
     padding: 1%;
 }
 
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 11%;
+}
+
+
+
 .rodape{
     display: flex;
     justify-content: center;
