@@ -35,14 +35,57 @@ body{
 }
 
 .principal__conteudo__caixa{
-    padding: 2%;
+    padding: 2% 2%;
     border: 2px solid #2bab80;
+    color: #2bab80;
 }
 
-.principal__conteudo__box{
-    padding: 2%;
+.principal__conteudo__caixa::before{
+    content: "";
+    position: absolute;
+    padding: 0.5% 16.6%;
+    transform: translate(-22px,-22px);
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: transparent;
+}
+
+.principal__conteudo__caixa:hover::before{
+    padding: 3% 16.6%;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition-duration: 0.9s;
     background-color: #2bab80;
-    z-index: 1;
+}
+
+.principal__conteudo__caixa:hover{
+    color: white;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.principal__conteudo__caixa__titulo{
+    position: relative;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.principal__conteudo__caixa__efeito{
+    position: absolute;
+    transform: translate(-43px, -22px);
+    padding: 0.8% 18%;
+    background-color: transparent;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.principal__conteudo__caixa__efeito:hover{
+    padding: 3% 18.1%;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: 1s;
+    color: white;
 }
 
 .rodape{
