@@ -7,9 +7,9 @@
 
 section {
     margin: 5%;
-    display: flex;
-    justify-content: space-between;
-    grid-column: 50%;
+    display: grid;
+    justify-content: space-between ;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 .cabecalho {
