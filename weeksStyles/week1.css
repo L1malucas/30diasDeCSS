@@ -1,0 +1,131 @@
+/* Variáveis específicas da Semana 1 */
+:root {
+    --sun-color: #ffd700;
+    --sun-glow: #fff5b1;
+    --cloud-color: #f0f0f0;
+    --cloud-shadow: #e0e0e0;
+    --house-wall: #e74c3c;
+    --house-roof: #34495e;
+    --tree-crown: #2ecc71;
+    --tree-trunk: #8b4513;
+}
+
+/* Dia 1: Sol */
+.sun {
+    width: 100px;
+    height: 100px;
+    background: var(--sun-color);
+    border-radius: 50%;
+    box-shadow: 0 0 50px var(--sun-glow);
+    position: relative;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.sun::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: radial-gradient(
+            circle,
+            var(--sun-glow) 0%,
+            transparent 70%
+    );
+    border-radius: 50%;
+}
+
+@keyframes glow {
+    from { box-shadow: 0 0 30px var(--sun-glow); }
+    to { box-shadow: 0 0 60px var(--sun-glow); }
+}
+
+/* Dia 2: Nuvem */
+.cloud {
+    width: 130px;
+    height: 50px;
+    background: var(--cloud-color);
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 0 4px 8px var(--cloud-shadow);
+    animation: float 3s ease-in-out infinite;
+}
+
+.cloud::before,
+.cloud::after {
+    content: '';
+    position: absolute;
+    background: var(--cloud-color);
+    border-radius: 50%;
+}
+
+.cloud::before {
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 25px;
+}
+
+.cloud::after {
+    width: 70px;
+    height: 70px;
+    top: -35px;
+    right: 25px;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* Dia 3: Casa */
+.house {
+    position: relative;
+    width: 150px;
+    height: 180px;
+}
+
+.facade {
+    width: 150px;
+    height: 100px;
+    background: var(--house-wall);
+    position: absolute;
+    bottom: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.roof {
+    width: 180px;
+    height: 100px;
+    background: var(--house-roof);
+    position: absolute;
+    top: 0;
+    left: -15px;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+/* Dia 4: Árvore */
+.tree {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crown {
+    width: 120px;
+    height: 120px;
+    background: var(--tree-crown);
+    border-radius: 50%;
+    box-shadow: inset -10px -10px 20px rgba(0,0,0,0.2);
+}
+
+.trunk {
+    width: 20px;
+    height: 80px;
+    background: var(--tree-trunk);
+    margin-top: -10px;
+    border-radius: 0 0 4px 4px;
+}

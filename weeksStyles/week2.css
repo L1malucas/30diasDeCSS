@@ -1,0 +1,165 @@
+/* Variáveis específicas da Semana 2 */
+:root {
+    --heart-color: #ff4757;
+    --eye-white: #ffffff;
+    --iris-color: #5352ed;
+    --pupil-color: #2f3542;
+    --mountain-color-1: #747d8c;
+    --mountain-color-2: #57606f;
+    --mountain-color-3: #2f3542;
+    --balloon-color: #ff6b81;
+    --string-color: #2f3542;
+}
+
+
+/* Dia 5: Coração */
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    transform: rotate(-45deg);
+    animation: heartbeat 1.2s ease-in-out infinite;
+}
+
+.heart::before,
+.heart::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--heart-color);
+}
+
+.heart::before {
+    left: 50%;
+}
+
+.heart::after {
+    top: -50%;
+}
+
+@keyframes heartbeat {
+    0% { transform: rotate(-45deg) scale(1); }
+    25% { transform: rotate(-45deg) scale(1.1); }
+    50% { transform: rotate(-45deg) scale(1); }
+    75% { transform: rotate(-45deg) scale(1.1); }
+    100% { transform: rotate(-45deg) scale(1); }
+}
+
+/* Dia 6: Olho */
+.eye {
+    width: 200px;
+    height: 100px;
+    background: var(--eye-white);
+    border-radius: 100px 100px 0 0;
+    position: relative;
+    transform: rotate(180deg);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+.iris {
+    width: 80px;
+    height: 80px;
+    background: var(--iris-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: look 3s infinite;
+}
+
+.pupil {
+    width: 35px;
+    height: 35px;
+    background: var(--pupil-color);
+    border-radius: 50%;
+}
+
+@keyframes look {
+    0% { transform: translate(-50%, -50%); }
+    25% { transform: translate(-60%, -50%); }
+    75% { transform: translate(-40%, -50%); }
+    100% { transform: translate(-50%, -50%); }
+}
+
+/* Dia 7: Montanha */
+.mountain-range {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.mountain {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.mountain-1 {
+    border-bottom: 150px solid var(--mountain-color-1);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mountain-2 {
+    border-bottom: 120px solid var(--mountain-color-2);
+    left: 20%;
+}
+
+.mountain-3 {
+    border-bottom: 100px solid var(--mountain-color-3);
+    right: 20%;
+}
+
+/* Dia 8: Balão */
+.balloon {
+    position: relative;
+    width: 100px;
+    height: 120px;
+    background: var(--balloon-color);
+    border-radius: 50%;
+    animation: float 3s ease-in-out infinite;
+}
+
+.balloon::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: var(--balloon-color);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.balloon-string {
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    background: var(--string-color);
+    bottom: -90px;
+    left: 50%;
+    transform-origin: top;
+    animation: swing 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes swing {
+    0%, 100% { transform: translateX(-50%) rotate(0); }
+    25% { transform: translateX(-50%) rotate(5deg); }
+    75% { transform: translateX(-50%) rotate(-5deg); }
+}
