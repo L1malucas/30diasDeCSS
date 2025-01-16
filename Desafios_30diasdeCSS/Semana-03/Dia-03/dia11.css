@@ -43,18 +43,19 @@ body{
 .principal__conteudo__caixa::before{
     content: "";
     position: absolute;
-    padding: 0.5% 16.6%;
-    transform: translate(-22px,-22px);
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
+    padding: 0.1% 16.6%;
+    transform: translate(-22px, -22px);
+    border-radius: 4rem;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
     background-color: transparent;
+    transition-duration: 0.95s;
 }
 
 .principal__conteudo__caixa:hover::before{
     padding: 3% 16.6%;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
-    transition-duration: 0.9s;
     background-color: #2bab80;
 }
 
