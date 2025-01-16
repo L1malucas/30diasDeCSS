@@ -1,0 +1,84 @@
+/* Estilos globais e utilitários */
+:root {
+    /* Cores do sistema */
+    --primary-color: #2563eb;
+    --surface-color: #ffffff;
+    --background-color: #f1f5f9;
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --border-color: #e2e8f0;
+
+    /* Espaçamento */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+
+    /* Sombras */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 80px auto 2rem;
+    padding: 0 var(--spacing-md);
+}
+
+/* Estilos dos desafios */
+.challenge {
+    margin: var(--spacing-xl) 0;
+    padding: var(--spacing-xl);
+    background: var(--surface-color);
+    border-radius: 0.75rem;
+    box-shadow: var(--shadow-md);
+}
+
+.challenge h2 {
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-md);
+    font-size: 1.5rem;
+}
+
+.art-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-color);
+    border-radius: 0.5rem;
+    margin-top: var(--spacing-md);
+    overflow: hidden;
+}
+
+/* Utilitários de responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+
+    .challenge {
+        padding: var(--spacing-md);
+    }
+
+    .art-container {
+        height: 250px;
+    }
+}
