@@ -1,0 +1,98 @@
+:root {
+    --coffee-cup: #ffffff;
+    --coffee: #4b2f24;
+    --steam: rgba(255,255,255,0.4);
+    --fish-body: #ff9f43;
+    --fish-eye: #ffffff;
+    --rainbow-colors: {
+        --r1: #ff4757;
+        --r2: #ff6b6b;
+        --r3: #ffd32a;
+        --r4: #20bf6b;
+        --r5: #45aaf2;
+        --r6: #8854d0;
+    };
+    --cat-fur: #2f3542;
+    --cat-nose: #ff4757;
+}
+
+/* Estilos do botão de retorno */
+.return {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.return-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.return-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.return-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Dia 9: Xícara de Café */
+.coffee-cup {
+    position: relative;
+    width: 120px;
+    height: 140px;
+    background: var(--coffee-cup);
+    border-radius: 0 0 60px 60px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.coffee-cup::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background: var(--coffee);
+    top: 20px;
+}
+
+.handle {
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    border: 12px solid var(--coffee-cup);
+    right: -40px;
+    top: 40px;
+    border-radius: 0 25px 25px 0;
+}
+
+.steam {
+    position: absolute;
+    width: 8px;
+    height: 50px;
+    background: var(--steam);
+    left: 30%;
+    top: -30px;
+    border-radius: 4px;
+    animation: steaming 2s infinite;
+}
+
+@keyframes steaming {
+    0% { transform: translateY(0) scaleX(1); opacity: 0.4; }
+    50% { transform: translateY(-20px) scaleX(1.2); opacity: 0.2; }
+    100% { transform: translateY(-40px) scaleX(1); opacity: 0; }
+}
+
+/* Restante dos estilos da semana 3... */
+/* Continue com os estilos do peixe, arco-íris e gato */
