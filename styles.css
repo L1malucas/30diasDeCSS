@@ -1,0 +1,91 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.link:hover{
+  color: #00ffff;
+}
+
+main {
+  text-align: center;
+  margin: 0;
+  padding: 190px;
+}
+
+button {
+  padding: 15px 30px;
+  margin: 10px;
+  background-color: #4a63f0;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn{
+  color: #f8f8f8;
+  background-color: brown;
+}
+
+.btn:hover{
+  background-color: #333;
+}
+
+button:hover {
+  transition-duration: 0.5s;
+  background-color: #59e7b1;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  width: 100%;
+  bottom: 0px;
+}
+
+footer a {
+  text-decoration: dotted;
+  color: #f4f4f4;
+}
+
+.linkedin:hover{
+  color: #57e7db;
+}
