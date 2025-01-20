@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+    background-color: #065da5a4;
+}
+
+.titulo{
+    color: #f0f8ff;
+    display: grid;
+    justify-content: center;
+    
+}
+
+nav{
+    padding: 10px;
+    width: 90px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.15),
+
+}
+
+nav > button{
+    color: #661366;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 1s;
+    font-size: 1em;
+}
+
+nav > button:hover{
+    background-color: #065da5a4;
+    color: #ffffff;
+    width: 95px;
+}
+
+
+body{
+    background-color: rgb(44, 41, 44);
+}
+
+.pai{
+  position: relative;
+  width: 300px; 
+  height: 300px;
+  left: 30%;
+  transform: translate(50%, 50%);
+}
+
+/* .pai::before{
+    content: '';
+    position: absolute;
+    inset: -5px;
+    border: 2px dashed rgb(106, 243, 106);
+} */
+
+
+.div01{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 1px;
+    background-color: aliceblue;
+    border: 4px solid rgb(0, 25, 252);
+    transform-origin: bottom right;
+    
+    animation: move1 5s linear infinite;
+   
+   }
+
+   .div01:nth-child(1)
+   {
+    animation-delay: 2.5s;
+   }
+
+ .div02{
+    position: absolute;
+    width:100px;
+    height:100px;
+    bottom: 0px;
+    left: 0px;
+    margin: 1px;
+    border-radius: 10px;
+    border: 4px solid rgb(52, 216, 52);
+    background-color: aliceblue;
+    transform-origin: bottom right;
+    
+    animation: move2 5s linear infinite;
+
+} 
+
+.div02:nth-child(2)
+   {
+    animation-delay: 3s;
+   }
+
+.div03{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(224, 240, 12);
+    width:100px;
+    height:100px;
+    border-radius: 10px;
+    top: 230px;
+    left: 80%;
+    margin: -1px;
+    transform: translate(-40%, -30%);
+    translate: 0px;
+    
+    animation: move3 5s linear infinite;
+   }
+
+   .div03:nth-child(3)
+   {
+    animation-delay: 3.5s;
+   }
+
+@keyframes move1{
+
+    0%{
+        translate: 0px;
+      }
+      25%{
+      translate:  200px;
+      }
+      50%{
+       translate:  200px 200px;
+      }
+      75%{
+        translate:  0px 200px;
+      }
+      
+}
+
+@keyframes move2{
+    
+    0%{
+        translate: 0px;
+      }
+      25%{
+        translate:  0px -200px;
+        }
+        50%{
+          translate:  200px -200px;
+        }
+        75%{
+          translate:  210px;
+        }
+     
+}
+
+@keyframes move3{
+  
+    0%{
+        translate: 0px;
+      }
+      25%{
+      translate:  -200px;
+      }
+      50%{
+        translate:  -200px -200px;
+      }
+      75%{
+        translate:  0px -200px;
+      }
+}
