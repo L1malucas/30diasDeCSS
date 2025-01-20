@@ -36,7 +36,7 @@ body{
 
 .texto{
    font-size: 5em;
-   background: linear-gradient(60deg, red, yellow, red, yellow, red);
+   background: linear-gradient(30deg,  rgb(0, 255, 85),rgb(185, 250, 214),  rgb(0, 255, 85), rgb(185, 250, 214),  rgb(0, 255, 85));
    background-clip: text; 
    -webkit-background-clip: text;
    color: transparent;
@@ -47,7 +47,7 @@ body{
     position: absolute; 
     overflow: hidden;
     transition: 2s infinite alternate;
-    background: linear-gradient(30deg, yellow, red, yellow, red, yellow);
+    background: linear-gradient(30deg, rgb(185, 250, 214),  rgb(0, 255, 85), rgb(185, 250, 214), rgb(0, 255, 85), rgb(185, 250, 214));;
     background-clip: text; 
    -webkit-background-clip: text;  
    animation: mudar 3s infinite;
