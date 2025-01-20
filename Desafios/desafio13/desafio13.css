@@ -1,0 +1,58 @@
+*{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: #201f1f;
+}
+
+.botoes {
+    border: solid;
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 6%;
+    text-decoration: none;
+    gap: 32px;
+   
+}
+
+.cabecalho{
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 6%;
+    size: 100vh;
+}
+
+.caixa {
+    position: absolute;
+    display: flex;
+    top: 40%;
+    left: 40%;
+}
+
+
+.texto{
+   font-size: 5em;
+   background: linear-gradient(60deg, red, yellow, red, yellow, red);
+   background-clip: text; 
+   -webkit-background-clip: text;
+   color: transparent;
+ }
+ 
+ .texto::before{
+    content: 'DESAFIO13';
+    position: absolute; 
+    overflow: hidden;
+    width: ;
+    transition: 2s infinite alternate;
+    background: linear-gradient(60deg, yellow, red, yellow, red, yellow);
+    background-clip: text; 
+   -webkit-background-clip: text;  
+}
+
+
+
+ 
