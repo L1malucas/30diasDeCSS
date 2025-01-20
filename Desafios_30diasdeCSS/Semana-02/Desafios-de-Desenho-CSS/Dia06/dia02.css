@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #f4742c;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+}
+
+.principal__conteudo{
+    padding: 10% 10%;
+}
+
+.acima{
+    transform: rotate(9.425rad);
+}
+
+.principal__conteudo__olho{
+    padding: 3rem 3.7rem;
+    border-bottom-right-radius: 3.75rem;
+    border-bottom-left-radius: 3.75rem;
+    background-color: wheat;
+}
+
+.principal__conteudo__iris{
+    padding: 3.5rem 2.5rem;
+    width: 1.5rem;
+    border-radius: 8rem;
+    box-shadow: 0px 0px 0px 8px rgba(71, 26, 0, 0.9);
+    background-color: rgb(71, 26, 0);
+    transform: translate(8px,-110px);
+}
+
+.principal__conteudo__pupila{
+    padding: 1.7rem 1.2rem;
+    width: 1rem;
+    border-radius: 8rem;
+    background-color: rgb(0, 0, 0);
+    transform: translate(32px,-165px);;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__titulo{
+    color: rgb(0, 0, 0);
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}

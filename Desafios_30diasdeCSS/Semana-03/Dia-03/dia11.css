@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11%;
+}
+
+.principal__conteudo__caixa{
+    padding: 2% 2%;
+    border: 2px solid #2bab80;
+    color: #2bab80;
+}
+
+.principal__conteudo__caixa::before{
+    content: "";
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    padding: 1% 8%;
+    transform: translate(70px, -22px);
+    border-radius: 5rem;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: teal;
+    transition-duration: 0.95s;
+}
+
+.principal__conteudo__caixa:hover::before{
+    padding: 3% 16.6%;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #2bab80;
+}
+
+.principal__conteudo__caixa:hover{
+    color: white;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.principal__conteudo__caixa__titulo{
+    position: relative;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__titulo{
+    color: rgb(0, 0, 0);
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}

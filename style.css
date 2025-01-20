@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor-background: #FBFEF9;
+    --cor-texto-principal: #000004;
+    --cor-texto-botao-verde: #058C42;
+    --cor-texto-botao-vermelho: #720E07;
+    --fonte-principal: "Share Tech Mono", serif;
+    --cor--texto-desafios: #454955;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-background);
+    color: var(--cor-texto-principal);
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+}
+
+.principal__titulo{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.principal__subtitulo{
+    text-align: center;
+    padding: 0.8% 0% 0.2% 0%;
+    border-bottom: 2px solid var(--cor-texto-principal);
+    width: 40%;
+    transform: translateX(75%);
+    border-style: none none dotted none;
+}
+
+.principal__links{  
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-wrap: nowrap;
+    gap: 20%;
+}
+
+.principal__links__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 5% 2%;
+}
+
+.principal__links__lista__titulo{
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 0.188rem solid var(--cor-texto-principal);
+    margin-bottom: 3%;
+    width: 28%;
+    transform: translateX(12.5rem);
+}
+
+.principal__links__lista__item{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 2.4%;
+}
+
+.principal__links__lista__item__botao{
+    text-decoration: none;
+    padding: 1.5%;
+    font-size: 1rem;
+}
+
+.concluido{
+    border: 0.188rem solid var(--cor-texto-botao-verde);
+    color: var(--cor-texto-botao-verde);
+}
+
+.pendente{
+    border: 0.188rem solid var(--cor-texto-botao-vermelho);
+    color: var(--cor-texto-botao-vermelho);
+}
+
+.desafios{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1.5%;
+}
+
+.desafios__lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.8rem;
+    width: 50%;
+    padding: 0% 5%;
+    list-style-type: disc;
+}
+
+.item__listado{
+    font-size: 1rem;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: var(--cor-texto-principal);
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}

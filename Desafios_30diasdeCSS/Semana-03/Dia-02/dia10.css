@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #abfbf3;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal__conteudo{
+    display: flex;
+    padding: 12%;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal__conteudo::before{
+    content: "Eu amo";
+    color: black;
+    font-family: "Tiny5", serif;
+    font-size: 5rem;
+    padding-right: 50px;
+}
+
+.principal__conteudo__imagens{
+    padding: 3.5% 6%;
+    animation-name: showimages;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-size: 80px;
+}
+
+@keyframes showimages{
+    0%{
+        background-image: url("./assets/controle.png");
+        background-repeat: no-repeat;
+    }
+    30%{
+        background-image: url("./assets/controle.png");
+        background-repeat: no-repeat;
+    }
+    30.5%{
+        background-image: url("./assets/computador.png");
+        background-repeat: no-repeat;
+    }
+    61.5%{
+        background-image: url("./assets/computador.png");
+        background-repeat: no-repeat;
+    }
+    62.5%, 100%{
+        background-image: url("./assets/pizza.png");
+        background-repeat: no-repeat;
+    }
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__titulo{
+    color: rgb(0, 0, 0);
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}
