@@ -46,13 +46,24 @@ body{
     content: 'DESAFIO13';
     position: absolute; 
     overflow: hidden;
-    width: ;
     transition: 2s infinite alternate;
-    background: linear-gradient(60deg, yellow, red, yellow, red, yellow);
+    background: linear-gradient(30deg, yellow, red, yellow, red, yellow);
     background-clip: text; 
    -webkit-background-clip: text;  
+   animation: mudar 3s infinite;
 }
 
+@keyframes mudar  {
+   0% {
+    opacity: 1;
+   } 
+   50%{ 
+    opacity: 0;
+   } 
+   100% { 
+    opacity: 1;
+   }
+}
 
 
  
