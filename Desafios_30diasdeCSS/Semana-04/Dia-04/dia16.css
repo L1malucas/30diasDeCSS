@@ -35,7 +35,7 @@ body{
 .principal__conteudo__titulo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
-    color: white;
+    color: white;   
     padding: 2% 4%;
     border: 2px solid white;
 }
@@ -50,7 +50,6 @@ body{
     background-color: rgba(152, 255, 152, 0.966);
     transform: translate(-65px, -136px);
     transition-duration: 1s;
-
 }
 
 .principal__conteudo__titulo:hover::before{
