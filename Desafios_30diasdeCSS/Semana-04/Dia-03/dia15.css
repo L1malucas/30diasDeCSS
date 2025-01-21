@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -29,17 +31,34 @@ body{
 .principal__conteudo{
     display: flex;
     justify-content: center;
-    padding: 9%;
+    padding: 7%;
 }
 
 .principal__conteudo__titulo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: "Poppins", serif;
+    font-weight: 600;
     font-size: 9.5rem;
     padding: 0% 70%;
     text-align: center;
     color: #f7ebec;
-    filter: drop-shadow(0rem 2.5rem 0.15rem rgba(0, 0, 0, 0.13));
+    filter: drop-shadow(0rem 2.5rem 0.15rem rgba(0, 0, 0, 0.13)) drop-shadow(0rem 0.3rem 0.1rem #f7ebec);
+    animation-name: movetext;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: skew(5deg, -12deg) rotate(12deg);
+}
+
+@keyframes movetext{
+    to{
+        transform: rotate(6deg);
+    }
+    50%{
+        transform: rotate(-6deg);
+    }
+    from{
+        transform: rotate(6deg);   
+    }
 }
 
 .rodape{
