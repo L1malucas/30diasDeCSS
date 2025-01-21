@@ -35,13 +35,13 @@ body{
 }
 
 .principal__conteudo__titulo{
+    content: "DESAFIO CSS";
     font-family: "Poppins", serif;
-    color: transparent;
+    color: white;
     font-size: 15rem;
     font-weight: 500;
-    background-image: url("../../Semana-01/Dia-01/assets/google+.png");
-    background-clip: text;
 }
+
 
 .rodape{
     display: flex;
