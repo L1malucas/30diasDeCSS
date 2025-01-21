@@ -37,11 +37,27 @@ body{
 .principal__conteudo__titulo{
     content: "DESAFIO CSS";
     font-family: "Poppins", serif;
-    color: white;
+    color: transparent;
     font-size: 15rem;
     font-weight: 500;
+    background-image: url("./background.png");
+    background-size: 60%;
+    background-clip: text;
+    background-position-y: 4rem;
+    animation-name: movebackground;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
+@keyframes movebackground{
+    to{
+        background-position-x: 0%;
+    }
+    from{
+        background-position-x: -150%;
+    }
+}
 
 .rodape{
     display: flex;
