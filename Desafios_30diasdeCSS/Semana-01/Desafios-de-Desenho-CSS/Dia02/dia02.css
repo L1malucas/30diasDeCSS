@@ -5,6 +5,7 @@
 
 body{
     box-sizing: border-box;
+    background-color: rgba(0, 76, 240, 0.61);
 }
 
 .botao{
@@ -19,10 +20,21 @@ body{
     font-family: "Roboto Slab", serif;
     font-size: 1.5rem;
     color:#f4742c;
-    background-color: transparent;
+    background-color: white;
     border: 3px solid black;
     border-radius: 0.2rem;
     padding: 1%;
+}
+
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 9%;
+}
+
+.principal__conteudo__circulo{
+    padding: 5% 4%;
+
 }
 
 .rodape{
