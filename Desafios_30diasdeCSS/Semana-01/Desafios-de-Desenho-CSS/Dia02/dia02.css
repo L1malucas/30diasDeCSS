@@ -29,12 +29,20 @@ body{
 .principal__conteudo{
     display: flex;
     justify-content: center;
-    padding: 9%;
+    padding: 4%;
+    align-items: center;
 }
 
 .principal__conteudo__circulo{
-    padding: 5% 4%;
-
+    padding: 6%;
+    background-color: white;
+    border-radius: 10rem;
+    transform: translateY(6rem);
+    box-shadow: 3rem -4rem 0rem -1.8rem white,
+    6rem  0.4rem 0rem -0.4rem white,
+    -10rem 4.8rem 0rem -4rem white,
+    -6rem 1rem 0rem 0rem white,
+    -3.4rem -1.8rem 0rem 0.2rem rgb(255, 255, 255);
 }
 
 .rodape{
