@@ -25,6 +25,61 @@ body{
     padding: 1%;
 }
 
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.principal__conteudo__casa{
+    position: relative;
+    padding: 10%;
+    background-color: #db8f00;
+    transform: translateY(10rem);
+}
+
+.principal__conteudo__janela{
+    position: absolute;
+    padding: 3%;
+    background-color: rgb(136, 225, 252);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    transform: translate(5.2rem, 14rem);
+}
+
+.principal__conteudo__porta{
+    position: absolute;
+    padding: 6.8% 3%;
+    background-color: rgb(73, 33, 0);
+    border: 2px solid rgb(109, 49, 0);
+    transform: translate(-5.2rem, 16rem);
+}
+
+.principal__conteudo__porta::before{
+    content: "";
+    position: absolute;
+    padding: 10%;
+    border-radius: 2rem;
+    background-color: #db8f00;
+    transform: translate(1.6rem, 0rem);  
+}
+
+.principal__conteudo__telhado{
+    position: absolute;
+    padding: 4% 16%;
+    background-color: rgb(206, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transform: translate(0rem, 4rem);
+    clip-path: polygon(50% 0, 100% 100%, 50% 70%, 0 100%);
+}
+
+.principal__conteudo__gramado{
+    position: absolute;
+    padding: 0.8% 12%;
+    background-color: rgb(22, 95, 0);
+    transform: translate(-0.2rem, 32rem);
+}
+
 .rodape{
     display: flex;
     justify-content: center;
