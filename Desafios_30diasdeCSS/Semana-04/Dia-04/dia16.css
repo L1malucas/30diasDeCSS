@@ -42,7 +42,7 @@ body{
 
 .principal__conteudo__titulo::before{
     position: absolute;
-    content: "✔️ Dia 16";
+    content: "✅ Dia 16";
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     color: rgb(0, 107, 14);
