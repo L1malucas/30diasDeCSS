@@ -30,7 +30,7 @@ body{
     position: absolute;
     display: flex;
     top: 40%;
-    left: 37%;
+    left: 35%;
     animation: mudar 5s infinite alternate;
 }
 
