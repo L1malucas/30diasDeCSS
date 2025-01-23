@@ -30,36 +30,40 @@ body{
     position: absolute;
     display: flex;
     top: 40%;
-    left: 40%;
+    left: 37%;
+    animation: mudar 5s infinite alternate;
 }
 
 
 .texto{
    font-size: 5em;
-   color: #11111181; 
-   animation: mudar 7s infinite;
+   color: #44fc7b; 
+   filter: drop-shadow(5px 20px 5px  #000000c0) ;
+   text-align: center;
+   position: relative;
 }
 
 
-.texto::before{
-    content: 'DESAFIO 15';
-    position: absolute;
-    color: rgb(17, 226, 111); 
-    overflow: hidden;
-    width: 100%;
-    transition: 2s;
-    top: 20px; 
-    display: flex;
-    animation: mudar 7s infinite;
-}
 
-@keyframes mudar  {
-   0% {
-    rotate: 15deg;
-  
-} 
-   50%{ 
-    rotate: -15deg;
-   } 
-   100%{ rotate: 15deg;}
+
+@keyframes mudar{
+    0% {
+        transform: rotateX(-10deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate( -10deg);
+    }
+
+    75% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform:rotate(-10deg);
+    }
 }
