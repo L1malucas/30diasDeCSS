@@ -38,8 +38,8 @@ body{
 }
 
 .principal__conteudo div:nth-child(1){
-    border-radius: 5rem;
-    transform: translateX(106px);
+    border-radius: 6rem;
+    transform: translateX(8.5rem);
 }
 
 .principal__conteudo div:nth-child(2){
@@ -47,8 +47,8 @@ body{
 }
 
 .principal__conteudo div:nth-child(3){
-    border-radius: 5rem;
-    transform: translate(-98px, 4px);
+    border-radius: 6rem;
+    transform: translate(-7.8rem, 0rem);
 }
 
 .rodape{
