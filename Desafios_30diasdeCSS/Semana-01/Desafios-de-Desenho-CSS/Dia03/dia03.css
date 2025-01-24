@@ -35,7 +35,7 @@ body{
     position: relative;
     padding: 10%;
     background-color: #db8f00;
-    transform: translateY(10rem);
+    transform: translateY(60%);
 }
 
 .principal__conteudo__janela{
@@ -44,7 +44,7 @@ body{
     background-color: rgb(136, 225, 252);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 1rem;
-    transform: translate(5.2rem, 14rem);
+    transform: translate(80%, 240%);
 }
 
 .principal__conteudo__porta{
@@ -52,7 +52,7 @@ body{
     padding: 6.8% 3%;
     background-color: rgb(73, 33, 0);
     border: 2px solid rgb(109, 49, 0);
-    transform: translate(-5.2rem, 16rem);
+    transform: translate(-80%, 116%);
 }
 
 .principal__conteudo__porta::before{
@@ -61,7 +61,7 @@ body{
     padding: 10%;
     border-radius: 2rem;
     background-color: #db8f00;
-    transform: translate(1.6rem, 0rem);  
+    transform: translate(100%, 0%);  
 }
 
 .principal__conteudo__telhado{
@@ -69,7 +69,7 @@ body{
     padding: 4% 16%;
     background-color: rgb(206, 0, 0);
     border: 2px solid rgb(0, 0, 0);
-    transform: translate(0rem, 4rem);
+    transform: translate(0%, 70%);
     clip-path: polygon(50% 0, 100% 100%, 50% 70%, 0 100%);
 }
 
@@ -77,7 +77,7 @@ body{
     position: absolute;
     padding: 0.8% 12%;
     background-color: rgb(22, 95, 0);
-    transform: translate(-0.2rem, 32rem);
+    transform: translate(0%, 1880%);
 }
 
 .rodape{
