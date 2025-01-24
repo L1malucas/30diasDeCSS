@@ -25,6 +25,19 @@ body{
     padding: 1%;
 }
 
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+}
+
+.principal__conteudo__item{
+    padding: 10%;
+    background-color: rgb(0, 82, 24);
+    box-shadow: inset -2rem 0rem 0rem 0.6rem rgb(20, 155, 61);
+    clip-path: polygon(52% 28%, 73% 100%, 50% 78%, 70% 0, 100% 100%, 28% 100%, 0 100%, 20% 46%, 35% 100%);
+}
+
 .rodape{
     display: flex;
     justify-content: center;
