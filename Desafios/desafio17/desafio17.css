@@ -18,7 +18,7 @@ body{
     text-decoration: none;
     border: solid;
 }
-.cabecalho{
+.cabecalho {
     background-color:rgb(17, 226, 111); 
     gap: 32px;
     padding: 0% 6%;
@@ -40,7 +40,6 @@ body{
         align-items: center;
         justify-content: center;
         animation: loading 2s infinite linear;
-        box
 
     }
     
