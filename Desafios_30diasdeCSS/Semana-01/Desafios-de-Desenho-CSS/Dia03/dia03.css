@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.principal__conteudo__casa{
+    position: relative;
+    padding: 10%;
+    background-color: #db8f00;
+    transform: translateY(60%);
+}
+
+.principal__conteudo__janela{
+    position: absolute;
+    padding: 3%;
+    background-color: rgb(136, 225, 252);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    transform: translate(80%, 240%);
+}
+
+.principal__conteudo__porta{
+    position: absolute;
+    padding: 6.8% 3%;
+    background-color: rgb(73, 33, 0);
+    border: 2px solid rgb(109, 49, 0);
+    transform: translate(-80%, 116%);
+}
+
+.principal__conteudo__porta::before{
+    content: "";
+    position: absolute;
+    padding: 10%;
+    border-radius: 2rem;
+    background-color: #db8f00;
+    transform: translate(100%, 0%);  
+}
+
+.principal__conteudo__telhado{
+    position: absolute;
+    padding: 4% 16%;
+    background-color: rgb(206, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transform: translate(0%, 70%);
+    clip-path: polygon(50% 0, 100% 100%, 50% 70%, 0 100%);
+}
+
+.principal__conteudo__gramado{
+    position: absolute;
+    padding: 0.8% 12%;
+    background-color: rgb(22, 95, 0);
+    transform: translate(0%, 1880%);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    transform: translateY(16rem);
+}
+
+.rodape__titulo{
+    color: rgb(0, 0, 0);
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}

@@ -5,6 +5,7 @@
 
 body{
     box-sizing: border-box;
+    background-color: rgba(0, 76, 240, 0.61);
 }
 
 .botao{
@@ -27,28 +28,21 @@ body{
 
 .principal__conteudo{
     display: flex;
-    padding: 10% 0%;
     justify-content: center;
-
+    padding: 4%;
+    align-items: center;
 }
 
-.principal__conteudo__item{
-    padding: 5%;
-    background-color: red;
-}
-
-.principal__conteudo div:nth-child(1){
-    border-radius: 6rem;
-    transform: translateX(8.5rem);
-}
-
-.principal__conteudo div:nth-child(2){
-    transform: translateY(3.75rem) rotate(48deg);
-}
-
-.principal__conteudo div:nth-child(3){
-    border-radius: 6rem;
-    transform: translate(-7.8rem, 0rem);
+.principal__conteudo__circulo{
+    padding: 6%;
+    background-color: white;
+    border-radius: 10rem;
+    transform: translateY(6rem);
+    box-shadow: 3rem -4rem 0rem -1.8rem white,
+    6rem  0.4rem 0rem -0.4rem white,
+    -10rem 4.8rem 0rem -4rem white,
+    -6rem 1rem 0rem 0rem white,
+    -3.4rem -1.8rem 0rem 0.2rem rgb(255, 255, 255);
 }
 
 .rodape{
@@ -56,6 +50,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 9rem;
+    transform: translateY(16rem);
 }
 
 .rodape__titulo{

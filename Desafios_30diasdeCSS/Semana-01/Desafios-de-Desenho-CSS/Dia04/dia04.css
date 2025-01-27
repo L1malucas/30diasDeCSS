@@ -5,7 +5,6 @@
 
 body{
     box-sizing: border-box;
-    background-color: #232323;
 }
 
 .botao{
@@ -29,32 +28,26 @@ body{
 .principal__conteudo{
     display: flex;
     justify-content: center;
-    padding: 8%;
+    padding: 3%;
 }
 
-.principal__conteudo__titulo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    color: white;   
-    padding: 2% 4%;
-    border: 2px solid white;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+.principal__conteudo__arvore{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
-.principal__conteudo__titulo::before{
+.principal__conteudo__copa{
+    padding: 8rem;
+    border-radius: 10rem;
+    background-color: rgb(0, 102, 39);
+    z-index: 4;
+}
+
+.principal__conteudo__tronco{
     position: absolute;
-    content: "✅ Dia 16";
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    color: rgb(0, 107, 14);
-    padding: 1.51% 4.5%;
-    background-color: rgba(152, 255, 152, 0.966);
-    transform: translate(-65px, -136px);
-    transition-duration: 1s;
-}
-
-.principal__conteudo__titulo:hover::before{
-    transform: translate(-65px, -32px);
+    padding: 10% 2%;
+    background-color: rgb(102, 54, 0);
+    transform: translate(5.6rem, 16rem);
 }
 
 .rodape{
@@ -62,10 +55,11 @@ body{
     justify-content: center;
     align-items: center;
     gap: 9rem;
+    transform: translateY(16rem);
 }
 
 .rodape__titulo{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .rodape__link{
@@ -73,7 +67,7 @@ body{
     align-items: center;
     gap: 0.8rem;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .rodape__link__logo{

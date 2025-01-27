@@ -5,7 +5,7 @@
 
 body{
     box-sizing: border-box;
-    background-color: #232323;
+    background-color: brown;
 }
 
 .botao{
@@ -29,32 +29,31 @@ body{
 .principal__conteudo{
     display: flex;
     justify-content: center;
-    padding: 8%;
+    padding: 4%;
 }
 
-.principal__conteudo__titulo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    color: white;   
-    padding: 2% 4%;
-    border: 2px solid white;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
-}
-
-.principal__conteudo__titulo::before{
+.principal__conteudo__alca{
+    padding: 2.6% 4%;
+    background-color: white;
+    border-radius: 6rem;    
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
     position: absolute;
-    content: "✅ Dia 16";
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    color: rgb(0, 107, 14);
-    padding: 1.51% 4.5%;
-    background-color: rgba(152, 255, 152, 0.966);
-    transform: translate(-65px, -136px);
-    transition-duration: 1s;
+    transform: translate(-7rem, 8rem);
 }
 
-.principal__conteudo__titulo:hover::before{
-    transform: translate(-65px, -32px);
+.principal__conteudo__xicara{
+    padding: 8% 7.8%;
+    background-color: white;
+    border-radius: 7rem;
+    clip-path: polygon(0 100%, 100% 100%, 100% 37%, 0 37%);
+}
+
+.principal__conteudo__cafe{
+    padding: 8%;
+    background-color: #3d1800;
+    position: absolute;
+    clip-path: ellipse(44% 14% at 50% 0%);
+    transform: translateY(6.5rem);
 }
 
 .rodape{
@@ -65,7 +64,7 @@ body{
 }
 
 .rodape__titulo{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .rodape__link{
@@ -73,7 +72,7 @@ body{
     align-items: center;
     gap: 0.8rem;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .rodape__link__logo{
