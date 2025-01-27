@@ -10,7 +10,6 @@ body{
 }
 
 .botoes {
-    
     border-radius: 4px;
     color: rgb(17, 226, 111);
     padding: 0% 3%;
@@ -30,19 +29,18 @@ div {
 	margin: 0;
 	padding: 0;
 	display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 30%;
+    position: absolute;
+    left: 40%;
+    top: 40%;
 }
 
 span {
 	list-style: none;
-	color: rgb(202, 235, 245);
+	color: rgb(17, 226, 111); 
 	font-size: 100px;
 	font-weight: bold;
 	letter-spacing: 10px;
 	transition: 2s;
-    top: 30%;
 }
 
 div:hover span {
