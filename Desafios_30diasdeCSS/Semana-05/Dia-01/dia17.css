@@ -26,6 +26,18 @@ body{
     padding: 1%;
 }
 
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+}
+
+.principal__conteudo__item{
+    padding: 6%;
+    background-color: #156cba;
+    border-radius: 10%;
+}
+
 .rodape{
     display: flex;
     justify-content: center;
