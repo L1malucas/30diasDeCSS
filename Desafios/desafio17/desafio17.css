@@ -1,0 +1,59 @@
+*{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: #201f1f;
+}
+
+.botoes {
+    
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 6%;
+    gap: 32px;
+    text-decoration: none;
+    border: solid;
+}
+.cabecalho{
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 6%;
+    size: 100vh;
+}
+    
+    div{
+    left: 45%;
+    top: 40%; 
+    padding: 0 10px 8px;
+    display: flex;
+    position: absolute;
+    }
+
+
+    .caixa {
+        border: solid 40px rgb(11, 247, 101); ;;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        animation: loading 2s infinite linear;
+        box
+
+    }
+    
+    @keyframes loading {
+        50% {
+            transform: translateY(10px);
+            transform: rotateY(180deg);
+        }
+        100% {  
+            transform: (10px);
+            transform: rotate(180deg);
+        }
+    }
+
+     
+ 
