@@ -26,6 +26,18 @@ body{
     padding: 1%;
 }
 
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.principal__conteudo__titulo{
+    color: #c8edef;
+    font-size: 8rem;
+    font-weight: 700;
+}
+
 .rodape{
     display: flex;
     justify-content: center;
