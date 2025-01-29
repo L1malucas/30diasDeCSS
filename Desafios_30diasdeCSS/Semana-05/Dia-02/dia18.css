@@ -55,7 +55,7 @@ body{
     position: absolute;
     transform: translateX(-160%);
     transition-duration: 2s;
-    transition-delay: 0.4s;
+    transition-delay: 0.3s;
 }
 
 .principal__conteudo__titulo:hover span:nth-child(2){
@@ -68,11 +68,11 @@ body{
     position: absolute;
     transform: translateX(-16%);
     transition-duration: 2s;
-    transition-delay: 0.8s;
+    transition-delay: 0.6s;
 }
 
 .principal__conteudo__titulo:hover span:nth-child(3){
-    transform: translate(120%,-120%) rotate(30deg);
+    transform: translate(100%,-120%) rotate(30deg);
     color: #c8edef00;
     filter: blur(1rem);
 }
@@ -80,8 +80,8 @@ body{
 .principal__conteudo__titulo span:nth-child(4){
     position: absolute;
     transform: translateX(135%);
-    transition-duration: 2s;
-    transition-delay: 1.1s;
+    transition-duration: 1.8s;
+    transition-delay: 0.9s;
 
 }
 
@@ -93,13 +93,13 @@ body{
 
 .principal__conteudo__titulo span:nth-child(5){
     position: absolute;
-    transform: translateX(250%);
-    transition-duration: 2s;
-    transition-delay: 1.5s;
+    transform: translateX(220%);
+    transition-duration: 1.8s;
+    transition-delay: 1.1s;
 }
 
 .principal__conteudo__titulo:hover span:nth-child(5){
-    transform: translate(360%,-120%) rotate(35deg);
+    transform: translate(350%,-120%) rotate(35deg);
     color: #c8edef00;
     filter: blur(1rem);
 }
