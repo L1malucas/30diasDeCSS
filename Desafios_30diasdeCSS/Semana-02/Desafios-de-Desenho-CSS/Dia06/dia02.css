@@ -53,6 +53,7 @@ body{
     inset 0rem 0rem 0rem 1rem rgb(73, 29, 0);
     border-radius: 12rem;
 }
+
 .rodape{
     display: flex;
     justify-content: center;
