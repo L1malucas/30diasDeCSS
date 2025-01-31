@@ -27,11 +27,10 @@ body {
 
 
 .tela__de__carregamento {
-    position: relative;
+    position: absolute;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 20%;  
+    top: 30%;
+    left: 45%;
     flex-direction: column;
 }
 
@@ -45,6 +44,8 @@ body {
     justify-content: center;
     align-items: center;
     animation: girar 1s linear infinite;
+   
+  
 }
 
 

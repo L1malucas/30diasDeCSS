@@ -90,9 +90,6 @@ h2 span:nth-child(11){
 h2 span:nth-child(12){
     animation-delay: 6s;
 }
-h2 span:nth-child(12){
-    animation-delay: 6.5s;
-}
 
 @keyframes transiçao{
     0%,100%{
@@ -101,7 +98,7 @@ h2 span:nth-child(12){
     }
 
     5%,95%{
-        color: #3f3d3c;
+        color:  #111;
         
     }
 }
