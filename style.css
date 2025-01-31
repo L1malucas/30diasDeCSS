@@ -126,3 +126,7 @@ body{
 .rodape__link__logo{
     width: 2rem;
 }
+
+.semana05{
+    transform: translateX(15%);
+}
