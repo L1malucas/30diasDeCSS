@@ -39,6 +39,25 @@ body{
     font-weight: 400;
     border:  solid white;
     padding: 2% 4%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.principal__conteudo__titulo::before{
+    content: "";
+    padding: 8% 11.6%;
+    background-color: white;
+    position: absolute;
+    transform: translate(-45%, -15%) rotate(-10deg);
+    clip-path: polygon(0 0, 10% 0, 70% 100%, 60% 100%);
+    transition-duration: 0.4s;
+}
+
+.principal__conteudo__titulo:hover::before{
+    transform: translate(57%, -80%);
+}
+
+.principal__conteudo__titulo:hover{
+    background-color: #03020c;
 }
 
 .rodape{
