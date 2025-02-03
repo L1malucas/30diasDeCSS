@@ -25,6 +25,16 @@ body{
     padding: 1%;
 }
 
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+}
+
+h2{
+    color: #163b54;
+}
+
 .rodape{
     display: flex;
     justify-content: center;
