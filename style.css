@@ -43,7 +43,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     text-wrap: nowrap;
-    gap: 5%;
+    gap: 6%;
 }
 
 .principal__links__lista{
@@ -128,5 +128,5 @@ body{
 }
 
 .semana05{
-    transform: translateX(15%);
+    transform: translateX(16%);
 }
