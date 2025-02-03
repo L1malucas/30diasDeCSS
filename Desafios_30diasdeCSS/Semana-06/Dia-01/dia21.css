@@ -26,6 +26,32 @@ body{
     padding: 1%;
 }
 
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 14%;
+    flex-direction: column;
+}
+
+.principal__conteudo__esferas{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.principal__conteudo__esferas__esfera{
+    padding: 0.8%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.principal__conteudo__base{
+    position: absolute;
+    padding: 0.24% 7.2%;
+    background-color: white;
+    transform: translate(200%, 220%);
+}
+
 .rodape{
     display: flex;
     justify-content: center;
