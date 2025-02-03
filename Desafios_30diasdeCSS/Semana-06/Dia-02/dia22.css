@@ -29,10 +29,54 @@ body{
     display: flex;
     justify-content: center;
     padding: 8%;
+    gap: 6%;
 }
 
-h2{
-    color: #163b54;
+.principal__conteudo__item{
+    padding: 4.4%;
+    border-radius: 50%;
+}
+
+.principal__conteudo__item::before{
+    content: "";
+    position: absolute;
+    padding: 3.6%;
+    border: 2px solid #163b54;
+    border-radius: 50%;
+    transform: translate(-49.2%, -50%);
+}
+
+.principal__conteudo__item::after{
+    content: "";
+    position: absolute;
+    padding: 3.6%;
+    background-color: transparent;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    transform: translate(-49.2%, -50%);
+    border: 2px solid transparent;
+}
+
+.principal__conteudo__item:hover::after{
+    padding: 3%;
+    background-color: #163b54;
+    box-shadow: inset 0rem 0rem 0rem 0.4rem white;
+    border: 2px solid #ffffff;
+    border-style: dashed;
+    animation-name: spin;
+    animation-duration: 0.32s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin{
+    to{
+        transform: translate(-49.2%, -50%) rotate(0deg);
+
+    }
+    from{
+        transform: translate(-49.2%, -50%) rotate(360deg);
+    }
 }
 
 .rodape{
