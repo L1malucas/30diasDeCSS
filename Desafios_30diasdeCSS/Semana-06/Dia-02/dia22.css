@@ -24,3 +24,26 @@ body{
     border-radius: 0.2rem;
     padding: 1%;
 }
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__titulo{
+    color: #163b54;
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: #163b54;
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}
