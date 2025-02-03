@@ -39,8 +39,110 @@ body{
     gap: 2%;
 }
 
+.principal__conteudo__esferas div:nth-child(1){
+    animation-name: firstmove;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes firstmove{
+    to{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-600%);
+    }
+    58%{
+        transform: translateY(-600%);
+    }
+    from{
+        transform: translateY(0%);
+    }
+}
+
+.principal__conteudo__esferas div:nth-child(2){
+    animation-name: secondmove;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes secondmove{
+    to{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-600%);
+    }
+    from{
+        transform: translateY(0%);
+    }
+}
+
+.principal__conteudo__esferas div:nth-child(3){
+    animation-name: thirtymove;
+    animation-duration: 1s;
+    animation-delay: 0.12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes thirtymove{
+    to{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-600%);
+    }
+    from{
+        transform: translateY(0%);
+    }
+}
+
+.principal__conteudo__esferas div:nth-child(4){
+    animation-name: fourtymove;
+    animation-duration: 0.95s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fourtymove{
+    to{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-600%);
+    }
+    from{
+        transform: translateY(0%);
+    }
+}
+
+.principal__conteudo__esferas div:nth-child(5){
+    animation-name: lastmove;
+    animation-duration: 0.95s;
+    animation-delay: 0.08s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lastmove{
+    to{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-600%);
+    }
+    from{
+        transform: translateY(0%);
+    }
+}
+
 .principal__conteudo__esferas__esfera{
-    padding: 0.8%;
+    padding: 1%;
     border-radius: 50%;
     background-color: white;
 }
