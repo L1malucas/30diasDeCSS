@@ -1,0 +1,89 @@
+
+*{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: #201f1f;
+}
+
+.botoes {
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 6%;
+    gap: 32px;
+    text-decoration: none;
+    border: solid;
+}
+.cabecalho {
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 6%;
+    size: 100vh;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    min-height: 80vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.tronco{
+    position: absolute;
+    width: 90px;
+    height: 500px;
+    background-color: #421800;
+    top: 70%;
+    left: 47%; 
+    
+}
+
+.ramo{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #2bff00;
+    top: 17%;
+    left: 46%;
+   
+}
+
+.ramo1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #1eb300;
+    top:25%;
+    left: 43.5%
+   
+}
+
+.ramo2{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #116101;
+    top: 34%;
+    left: 41%;
+   
+}
+.ramo3{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #0a3501;
+    top: 50%;
+    left: 38.5%;
+  
+}
