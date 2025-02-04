@@ -39,12 +39,12 @@ body{
     font-size: 3.4rem;
     border: 2px solid white;
     padding: 2.6% 6%;
-    transition-duration: 0.2s;
+    transition-duration: 0.25s;
 }
 
 .principal__conteudo__titulo:hover{
     animation-name: shake;
-    animation-duration: 0.3s;
+    animation-duration: 0.44s;
     animation-timing-function: linear;
     color:#349470;
     border: 2px solid #349470;
@@ -54,11 +54,17 @@ body{
     to{
         transform: rotate(0deg);
     }
-    50%{
+    25%{
         transform: rotate(10deg);
     }
-    100%{
+    50%{
         transform: rotate(-10deg);
+    }
+    75%{
+        transform: rotate(3deg);
+    }
+    from{
+        transform: rotate(-3deg);
     }
 }
 
