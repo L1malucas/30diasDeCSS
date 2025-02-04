@@ -26,6 +26,21 @@ body{
     padding: 1%;
 }
 
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+}
+
+.principal__conteudo__titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 3.4rem;
+    border: 2px solid white;
+    padding: 2.6% 6%;
+}
+
 .rodape{
     display: flex;
     justify-content: center;
