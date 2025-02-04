@@ -39,6 +39,27 @@ body{
     font-size: 3.4rem;
     border: 2px solid white;
     padding: 2.6% 6%;
+    transition-duration: 0.2s;
+}
+
+.principal__conteudo__titulo:hover{
+    animation-name: shake;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    color:#349470;
+    border: 2px solid #349470;
+}
+
+@keyframes shake{
+    to{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
 }
 
 .rodape{
