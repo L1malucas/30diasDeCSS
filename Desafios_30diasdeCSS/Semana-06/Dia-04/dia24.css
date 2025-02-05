@@ -26,6 +26,39 @@ body{
     padding: 1%;
 }
 
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.principal__conteudo__item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    transform: rotate(-45deg);
+}
+
+.principal__conteudo__item span:nth-child(1){
+    padding: 2rem;
+    background-color: rgb(255, 98, 98);
+}
+
+.principal__conteudo__item span:nth-child(2){
+    padding: 2rem;
+    background-color: rgb(255, 252, 98);
+}
+
+.principal__conteudo__item span:nth-child(3){
+    padding: 2rem;
+    background-color: rgb(57, 70, 255);
+}
+
+.principal__conteudo__item span:nth-child(4){
+    padding: 2rem;
+    background-color: rgb(98, 255, 132);
+}
+
 .rodape{
     display: flex;
     justify-content: center;
