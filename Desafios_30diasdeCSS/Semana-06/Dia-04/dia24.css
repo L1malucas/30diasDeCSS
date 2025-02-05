@@ -42,21 +42,93 @@ body{
 .principal__conteudo__item span:nth-child(1){
     padding: 2rem;
     background-color: rgb(255, 98, 98);
+    animation-name: movered;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movered{
+    to{
+        transform: translate(0%, 0%) rotate(90deg);
+    }
+    10%{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+    50%{
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+    from{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
 }
 
 .principal__conteudo__item span:nth-child(2){
     padding: 2rem;
     background-color: rgb(255, 252, 98);
+    animation-name: moveyellow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveyellow{
+    to{
+        transform: translate(0%, 0%) rotate(90deg);
+    }
+    10%{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+    50%{
+        transform: translate(50%, -50%) rotate(90deg);
+    }
+    from{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
 }
 
 .principal__conteudo__item span:nth-child(3){
     padding: 2rem;
     background-color: rgb(57, 70, 255);
+    animation-name: moveblue;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveblue{
+    to{
+        transform: translate(0%, 0%) rotate(90deg);
+    }
+    10%{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+    50%{
+        transform: translate(-50%, 50%) rotate(90deg);
+    }
+    from{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
 }
 
 .principal__conteudo__item span:nth-child(4){
     padding: 2rem;
     background-color: rgb(98, 255, 132);
+    animation-name: movegreen;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movegreen{
+    to{
+        transform: translate(0%, 0%) rotate(90deg);
+    }
+    10%{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+    50%{
+        transform: translate(50%, 50%) rotate(90deg);
+    }
+    from{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
 }
 
 .rodape{
