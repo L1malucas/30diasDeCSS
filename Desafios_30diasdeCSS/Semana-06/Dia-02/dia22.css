@@ -37,6 +37,19 @@ body{
     border-radius: 50%;
 }
 
+.principal__conteudo__item img:nth-child(1){
+    position: absolute;
+    transform: translate(-50%, -48%);
+    width: 6%;
+}
+
+.principal__conteudo__item img:nth-child(2){
+    position: absolute;
+    transform: translate(-50%, -48%);
+    width: 4.4%;
+    z-index: 1;
+}
+
 .principal__conteudo__item::before{
     content: "";
     position: absolute;
