@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #0c1433;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
