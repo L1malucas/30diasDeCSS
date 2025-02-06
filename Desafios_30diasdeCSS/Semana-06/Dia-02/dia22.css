@@ -32,34 +32,26 @@ body{
     gap: 6%;
 }
 
-.principal__conteudo__item{
-    padding: 4.4%;
-    border-radius: 50%;
-}
-
-.principal__conteudo__item img:nth-child(1){
-    position: absolute;
-    transform: translate(-50%, -48%);
-    width: 6%;
-}
-
-.principal__conteudo__item img:nth-child(2){
-    position: absolute;
-    transform: translate(-50%, -48%);
-    width: 4.4%;
-    z-index: 1;
-}
-
-.principal__conteudo__item::before{
+.principal__conteudo div:nth-child(1)::after{
     content: "";
     position: absolute;
     padding: 3.6%;
     border: 2px solid #163b54;
     border-radius: 50%;
     transform: translate(-49.2%, -50%);
+    background-image: url("./assets/coracao-azul.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 50%;
+    z-index: 1;
+    transition: 0.5s;
 }
 
-.principal__conteudo__item::after{
+.principal__conteudo div:hover:nth-child(1)::after{
+    background-image: url("./assets/coracao-branco.png");
+}
+
+.principal__conteudo div:nth-child(1)::before{
     content: "";
     position: absolute;
     padding: 3.6%;
@@ -70,7 +62,133 @@ body{
     border: 2px solid transparent;
 }
 
-.principal__conteudo__item:hover::after{
+.principal__conteudo div:hover:nth-child(1)::before{
+    padding: 3%;
+    background-color: #163b54;
+    box-shadow: inset 0rem 0rem 0rem 0.4rem white;
+    border: 2px solid #ffffff;
+    border-style: dashed;
+    animation-name: spin;
+    animation-duration: 0.32s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.principal__conteudo div:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    padding: 3.6%;
+    border: 2px solid #163b54;
+    border-radius: 50%;
+    transform: translate(-49.2%, -50%);
+    background-image: url("./assets/trevo-azul.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 44%;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.principal__conteudo div:hover:nth-child(2)::after{
+    background-image: url("./assets/trevo-branco.png");
+}
+
+.principal__conteudo div:nth-child(2)::before{
+    content: "";
+    position: absolute;
+    padding: 3.6%;
+    background-color: transparent;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    transform: translate(-49.2%, -50%);
+    border: 2px solid transparent;
+}
+
+.principal__conteudo div:hover:nth-child(2)::before{
+    padding: 3%;
+    background-color: #163b54;
+    box-shadow: inset 0rem 0rem 0rem 0.4rem white;
+    border: 2px solid #ffffff;
+    border-style: dashed;
+    animation-name: spin;
+    animation-duration: 0.32s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.principal__conteudo div:nth-child(3)::after{
+    content: "";
+    position: absolute;
+    padding: 3.6%;
+    border: 2px solid #163b54;
+    border-radius: 50%;
+    transform: translate(-49.2%, -50%);
+    background-image: url("./assets/copa-azul.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 54% 54%;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.principal__conteudo div:hover:nth-child(3)::after{
+    background-image: url("./assets/copa-branco.png");
+}
+
+.principal__conteudo div:nth-child(3)::before{
+    content: "";
+    position: absolute;
+    padding: 3.6%;
+    background-color: transparent;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    transform: translate(-49.2%, -50%);
+    border: 2px solid transparent;
+}
+
+.principal__conteudo div:hover:nth-child(3)::before{
+    padding: 3%;
+    background-color: #163b54;
+    box-shadow: inset 0rem 0rem 0rem 0.4rem white;
+    border: 2px solid #ffffff;
+    border-style: dashed;
+    animation-name: spin;
+    animation-duration: 0.32s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.principal__conteudo div:nth-child(4)::after{
+    content: "";
+    position: absolute;
+    padding: 3.6%;
+    border: 2px solid #163b54;
+    border-radius: 50%;
+    transform: translate(-49.2%, -50%);
+    background-image: url("./assets/dama-azul.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 60% 60%;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.principal__conteudo div:hover:nth-child(4)::after{
+    background-image: url("./assets/dama-branco.png");
+}
+
+.principal__conteudo div:nth-child(4)::before{
+    content: "";
+    position: absolute;
+    padding: 3.6%;
+    background-color: transparent;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    transform: translate(-49.2%, -50%);
+    border: 2px solid transparent;
+}
+
+.principal__conteudo div:hover:nth-child(4)::before{
     padding: 3%;
     background-color: #163b54;
     box-shadow: inset 0rem 0rem 0rem 0.4rem white;
@@ -92,6 +210,10 @@ body{
     }
 }
 
+.principal__conteudo__item{
+    padding: 4.4%;
+    border-radius: 50%;
+}
 .rodape{
     display: flex;
     justify-content: center;
