@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #0c1433;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.principal__conteudo__item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    transform: rotate(-45deg);
+}
+
+.principal__conteudo__item span:nth-child(1){
+    padding: 2rem;
+    background-color: rgb(255, 98, 98);
+    animation-name: movered;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movered{
+    to{
+        transform: translate(0%, 0%) rotate(90deg);
+    }
+    10%{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+    50%{
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+    from{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+}
+
+.principal__conteudo__item span:nth-child(2){
+    padding: 2rem;
+    background-color: rgb(255, 252, 98);
+    animation-name: moveyellow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveyellow{
+    to{
+        transform: translate(0%, 0%) rotate(90deg);
+    }
+    10%{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+    50%{
+        transform: translate(50%, -50%) rotate(90deg);
+    }
+    from{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+}
+
+.principal__conteudo__item span:nth-child(3){
+    padding: 2rem;
+    background-color: rgb(57, 70, 255);
+    animation-name: moveblue;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveblue{
+    to{
+        transform: translate(0%, 0%) rotate(90deg);
+    }
+    10%{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+    50%{
+        transform: translate(-50%, 50%) rotate(90deg);
+    }
+    from{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+}
+
+.principal__conteudo__item span:nth-child(4){
+    padding: 2rem;
+    background-color: rgb(98, 255, 132);
+    animation-name: movegreen;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movegreen{
+    to{
+        transform: translate(0%, 0%) rotate(90deg);
+    }
+    10%{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+    50%{
+        transform: translate(50%, 50%) rotate(90deg);
+    }
+    from{
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__titulo{
+    color: rgb(255, 255, 255);
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}

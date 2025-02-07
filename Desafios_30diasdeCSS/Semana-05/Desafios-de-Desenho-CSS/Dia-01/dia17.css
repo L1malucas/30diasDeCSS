@@ -5,7 +5,6 @@
 
 body{
     box-sizing: border-box;
-    background-color: #f4742c;
 }
 
 .botao{
@@ -24,34 +23,6 @@ body{
     border: 3px solid black;
     border-radius: 0.2rem;
     padding: 1%;
-}
-
-.principal{
-    display: flex;
-    justify-content: center;
-}
-
-.principal__conteudo{
-    padding: 6% 10%;
-}
-
-.principal__conteudo__olho{
-    padding: 14rem 15rem;
-    background-color: white;
-    clip-path: ellipse(47% 15% at 51% 48%);
-}
-
-.principal__conteudo__olho::before{
-    content: "";
-    padding: 2.8rem 3.4rem;
-    background-color: rgb(73, 29, 0);
-    box-shadow: 0rem 0rem 0rem 2rem rgba(73, 29, 0, 0.24),
-    0rem 0rem 0rem 1.4rem rgba(73, 29, 0, 0.664),
-    0rem 0rem 0rem 1rem rgba(73, 29, 0, 0.808),
-    0rem 0rem 0rem 0.2rem rgba(73, 29, 0, 0.808),
-    inset 0rem 0rem 0rem 5rem rgb(0, 0, 0),
-    inset 0rem 0rem 0rem 1rem rgb(73, 29, 0);
-    border-radius: 12rem;
 }
 
 .rodape{
