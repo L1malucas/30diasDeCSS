@@ -9,7 +9,6 @@ body{
 }
 
 .botoes {
-    
     border-radius: 4px;
     color: rgb(17, 226, 111);
     padding: 0% 3%;
@@ -24,3 +23,4 @@ body{
     padding: 0% 6%;
     size: 100vh;
 }
+
