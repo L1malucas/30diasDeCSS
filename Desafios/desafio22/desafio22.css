@@ -24,3 +24,79 @@ body{
     size: 100vh;
 }
 
+section {
+    
+    top: 30%;
+    left: 27%;  
+    display: flex;
+    position: absolute;
+}
+
+span{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    border: 5px solid rgb(17, 226, 111); 
+    border-radius: 50%;
+    background: #0f0f0f;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+    z-index: 1;
+}
+
+span::before {
+    position: absolute;
+    content: '';
+    width: 220px;
+    height: 220px;
+    background: rgb(17, 226, 111); 
+    border-radius: 50%; 
+    transform: scale(0);
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+span:after {
+    position: absolute;
+    content: '';
+    border:3px dotted rgb(17, 226, 111); 
+    transform: translate(-50%, -50%);
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    opacity: 0;
+  }
+ span:hover::before {
+    opacity: 1;
+    transform: scale(1);
+} 
+ 
+span:hover:after {
+    opacity: 1;
+    animation: spin 5s linear infinite;
+  }
+
+i {  
+    font-size: 50px;  
+    color: rgb(17, 226, 111); 
+}
+
+span:hover i {
+   color: #0f0f0f;
+  }
+
+
+  @keyframes spin{
+    0%{
+        transform: rotate(0deg);
+        
+      
+    }
+    100%{
+
+        transform: rotate(360deg);
+    }
+}
