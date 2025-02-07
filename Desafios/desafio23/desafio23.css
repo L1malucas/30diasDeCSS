@@ -1,0 +1,80 @@
+*{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: #201f1f;
+}
+
+.botoes {
+    border: solid;
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 6%;
+    text-decoration: none;
+    gap: 32px;
+   
+}
+
+.cabecalho{
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 6%;
+    size: 100vh;
+}
+
+div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    padding: 0 10px 8px;
+}
+ 
+
+.botao_dsf{
+    display: block;
+    overflow: hidden;
+    color: rgb(17, 226, 111);
+    font-size: 30px;
+    padding: 15px;
+    text-decoration: none;
+    border: 5px solid rgb(17, 226, 111);  
+    margin: 0 15px;
+    position: relative;
+}
+
+.botao_dsf:hover{
+    color:  #ffffff;
+    transition: 1s;
+    border: 5px solid #ffffff;
+    animation: mudar 1s;
+}
+
+
+
+@keyframes mudar{
+    0% {
+        transform: rotateX(-10deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate( -10deg);
+    }
+
+    75% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform:rotate(-10deg);
+    }
+}

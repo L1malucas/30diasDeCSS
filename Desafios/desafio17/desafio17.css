@@ -26,7 +26,7 @@ body{
 }
     
     div{
-    left: 45%;
+    left: 47.5%;
     top: 40%; 
     padding: 0 10px 8px;
     display: flex;
@@ -44,12 +44,13 @@ body{
     }
     
     @keyframes loading {
-        50% {
-            transform: translateY(10px);
-            transform: rotateY(-180deg);
+        0%{
+            transform: perspective(350px) rotateX(0deg) rotateY(0deg);
         }
-        100% {  
-            transform: (10px);
-            transform: rotate(-180deg);
+        50%{
+            transform: perspective(350px) rotateX(180deg) rotateY(0deg);
+        }
+        100%{
+            transform: perspective(350px) rotateX(180deg) rotateY(-180deg);
         }
     }

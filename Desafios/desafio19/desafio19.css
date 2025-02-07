@@ -10,17 +10,87 @@ body{
 }
 
 .botoes {
+    text-decoration: none;
+    border: solid;
     border-radius: 4px;
     color: rgb(17, 226, 111);
     padding: 0% 3%;
     margin: 0% 6%;
-    gap: 32px;
-    text-decoration: none;
-    border: solid;
+    position: absolute;
+    top: 6%;
+    
+
 }
 .cabecalho {
     background-color:rgb(17, 226, 111); 
     gap: 32px;
     padding: 0% 6%;
     size: 100vh;
+}
+section{
+	
+    display: flex;
+    background-color: #201f1f;
+}
+
+
+.caixa{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;  
+    gap: 15px;
+}
+
+.particulas{
+    display: flex;
+    position: absolute;
+    animation: rotacao 20s linear infinite;
+    
+}
+
+.particulas span{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #69dd8c;
+    box-shadow: 0 0 20px rgb(17, 226, 111),
+    0 0 40px rgb(17, 226, 111),
+    0 0 60px rgb(17, 226, 111),
+    0 0 80px rgb(0, 255, 115),
+    0 0 0 8px rgba(0, 255, 149, 0.1);
+    border-radius: 50%;
+    animation: float 40s alternate-reverse infinite;
+    animation-duration: calc(150s / var(--i));
+}
+
+@keyframes float{
+    0%{
+       
+        transform: translateY(100vh) scale(0);
+    }
+
+    50%{
+      
+        transform: translateY(-100vh)  scale(1.5);
+    }
+
+    100%{
+      
+        transform: translateY(100vh) scale(0.5);
+    }
+}
+
+
+
+@keyframes rotacao{
+    from{
+        transform: rotate(0deg);
+      
+      
+    }
+    to{
+        
+        transform: rotate(90deg);
+    }
 }
