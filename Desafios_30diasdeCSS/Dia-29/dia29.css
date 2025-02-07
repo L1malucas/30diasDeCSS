@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    padding: 1.6%;
+    border: 1px solid black;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    gap: 4%;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+nav h2:nth-child(4){
+    color: green;
+}
+
+input{
+    display: none;
+}
+
+label{
+    display: none;
+}
+
+@media (max-width: 414px){
+    header{
+        flex-direction: column;
+        border: none;
+        padding: 0%;
+    }
+    label{
+        display: flex;
+        justify-content: end;
+        border-bottom: 1px solid black;
+        padding: 2%;
+    }
+    img{
+        width: 10%;
+    }
+    nav{
+        display: none;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    input[type="checkbox"]:checked ~ nav{
+        display: flex;
+    }
+    h2{
+        border: 1px solid black;
+        padding: 2% 0%;
+    }
+}
