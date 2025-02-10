@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #1b1b1b;
+}
+
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 16%;
+    gap: 5%;
+}
+
+.principal__conteudo__esfera{
+    padding: 12%;
+    border-radius: 50%;
+}
+
+.principal__conteudo__esfera::before{
+    content: "";
+    padding: 12%;
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation-name: reduce;
+    animation-duration: 1s;
+}
+
+@keyframes reduce{
+    to{
+        box-shadow: inset 0.2rem -0.2rem 0rem 0rem #1b1b1b;
+        z-index: 1;
+    }
+    from{
+        box-shadow: inset 0.2rem -0.2rem 0rem 10rem #1b1b1b;
+        z-index: 1;
+    }
+}
+
+.principal__conteudo__esfera::after{
+    content: "";
+    padding: 2%;
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: increase;
+    animation-duration: 1s;
+}
+
+@keyframes increase{
+    to{
+        box-shadow: 0.4rem -0.1rem 0rem 10rem #1b1b1b;
+    }
+    from{
+        box-shadow: 0.4rem -0.1rem 0rem 0rem #1b1b1b;
+    }
+}
+
+.principal__conteudo__esfera span:nth-child(1){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    position: absolute;
+    transform: translate(-20%,-120%);
+}
+
+.principal__conteudo__esfera span:nth-child(2){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    position: absolute;
+    transform: translate(1420%,-98%) rotate(45deg);
+}
+
+.principal__conteudo__esfera span:nth-child(3){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    position: absolute;
+    transform: translate(-1440%,-98%) rotate(-45deg);
+}
+
+.principal__conteudo__esfera span:nth-child(4){
+    padding: 5.8rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    position: absolute;
+    transform: translate(1940%, -50%) rotate(90deg);
+}
+
+.principal__conteudo__esfera span:nth-child(5){
+    padding: 5.8rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    position: absolute;
+    transform: translate(-1950%, -50%) rotate(-90deg);
+}
+
+.principal__conteudo__esfera span:nth-child(6){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    position: absolute;
+    transform: translate(-1400%,-2%) rotate(45deg);
+}
+
+.principal__conteudo__esfera span:nth-child(7){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    position: absolute;
+    transform: translate(1400%,-2%) rotate(-45deg);
+}
+
+.principal__conteudo__esfera span:nth-child(8){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    position: absolute;
+    transform: translate(-20%, 16%);
+}
+
+
+/*
+.principal__conteudo__esfera span:nth-child(1){
+    
+}
+
+.principal__conteudo div:nth-child(2){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+}
+
+.principal__conteudo div:nth-child(3){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    transform: translate(2200%, -180%) rotate(90deg);
+}
+
+.principal__conteudo div:nth-child(4){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    transform: translate(-2200%, -280%) rotate(90deg);
+}
+
+.principal__conteudo div:nth-child(5){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    transform: translate(-1600%, -326%) rotate(45deg);
+}
+
+.principal__conteudo div:nth-child(6){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    transform: translate(1600%, -426%) rotate(-45deg);
+}
+
+.principal__conteudo div:nth-child(7){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    transform: translate(1600%, -636%) rotate(45deg);
+}
+
+.principal__conteudo div:nth-child(8){
+    padding: 6rem 0.2rem;
+    background-color: rgb(236, 255, 64);
+    transform: translate(-1600%, -736%) rotate(-45deg);
+}*/
