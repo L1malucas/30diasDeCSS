@@ -1,0 +1,103 @@
+*{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: #201f1f;
+}
+
+.botoes {
+    
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 6%;
+    gap: 32px;
+    text-decoration: none;
+    border: solid;
+}
+.cabecalho{
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 6%;
+    size: 100vh;
+}
+    
+    div{
+    left: 40%;
+    top: 40%; 
+    padding: 0 10px 8px;
+    display: flex;
+    position: absolute;
+    }
+    
+    span
+    {
+    font-size: 100px;
+    animation: loading 3s linear infinite alternate;
+    }
+    
+    @keyframes loading{
+    0%{ 
+        color: rgb(84, 67, 236);
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {    
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100% {
+        color: rgb(98, 230, 98);
+        transform: translateX(50px);
+        opacity: 1;
+    }
+    }
+    
+    span:nth-child(1)
+    {
+        animation-delay: 0s;
+    }
+    span:nth-child(2)
+    {
+        animation-delay: 0.3s;
+    }
+    span:nth-child(3)
+    {
+        animation-delay: 0.6s;
+    }
+    span:nth-child(4)
+    {
+        animation-delay: 0.9s;
+    }
+    span:nth-child(5)
+    {
+        animation-delay: 1.2s;
+    }
+    span:nth-child(6)
+    {
+        animation-delay: 1.5s;
+    }
+    span:nth-child(7)
+    {
+        animation-delay: 1.8s;
+    }
+    span:nth-child(8)
+    {
+        animation-delay: 2.1s;
+    }
+    span:nth-child(9)
+    {
+        animation-delay: 2.4s;
+    }
+    span:nth-child(10)
+    {
+        animation-delay: 2.7s;
+    }

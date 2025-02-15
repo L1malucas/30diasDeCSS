@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(14, 14, 14);
+    min-width: 300px;
+    max-width: 1000;
+}
+.botoes {
+    border: solid;
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 6%;
+    text-decoration: none;
+    gap: 32px;
+}
+
+.cabecalho{
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 6%;
+}
+
+
+.box {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 85px;
+    background-color: #272727;
+    height: 300px;
+  
+}
+
+.image{
+    width: 80px;
+    height: 70px;
+    transition-duration: 0.6s;
+    transition-delay: 0.2s;
+    transform: skew(50deg, -20deg); 
+    justify-content: space-between;
+}
+.icones:hover
+{
+    gap: 2em;
+    box-shadow: -9px 5px 0px rgb(24, 24, 24),
+   -15px 10px 0px rgba(24, 24, 24, 0.801),
+    -20px 15px 0px rgba(24, 24, 24, 0.815),
+   -27px 20px 0px rgba(0, 0, 0, 0.466),
+    -32px 25px 0px rgba(24, 24, 24, 0.247),
+    -39px 30px 0px rgba(24, 24, 24, 0.048);
+    
+     
+}
+
+.image:hover {
+    transform: translateY(-2.5rem) skew(50deg, -20deg);
+    box-shadow: -34px 40px 0px (rgba 31, 31, 32, 0.753);
+    
+}

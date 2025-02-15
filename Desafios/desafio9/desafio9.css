@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #201f1f;
+}
+
+.botoes {
+    border: solid;
+    border-radius: 4px;
+    color: rgb(17, 226, 111);
+    padding: 0% 3%;
+    margin: 0% 6%;
+    text-decoration: none;
+    gap: 32px;
+   
+}
+
+.cabecalho{
+    background-color:rgb(17, 226, 111); 
+    gap: 32px;
+    padding: 0% 6%;
+    size: 100vh;
+}
+
+ 
+.titulo{
+      color: #49e763;
+      text-align: center;       
+  }
+    
+  .pendulo{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border-top: 7px solid #49e763;
+      display: flex;
+      padding: 0 10px 8px;
+      
+  }
+  
+  
+  
+  .circulos{
+     position: relative; 
+     display: block;
+     width: 3px;
+     height:190px;
+     background: #49e763;
+     margin: 0px 19px;
+     transform-origin: top;
+  }
+  
+  
+  .circulos::before{
+      text-align: center;
+     content: ".";
+      position: absolute;
+      bottom: -5px;
+      left: -18px;
+      width: 40px;
+      height: 40px;
+      background: #49e763;
+      border-radius: 50%;
+  }
+  
+  .circulos:first-child{
+      animation: Circulo1 3s linear infinite;
+        
+        }
+  
+  
+  
+  .circulos:last-child {
+      animation: Circulo5 3s linear infinite;
+      animation-delay: 1.5s;
+  }
+  
+  
+  
+  @keyframes Circulo1 {
+  
+      0%{
+          transform: rotate(0deg);
+      }
+  
+  
+      25%{
+          transform: rotate(60deg);
+      }
+  
+  
+      50%{
+          transform: rotate(0deg);
+      }
+  
+      75%{
+          transform: rotate(0deg);
+      }
+  }
+  
+  @keyframes Circulo5 {
+  
+      0%{
+          transform: rotate(0deg);
+      }
+  
+  
+      25%{
+          transform: rotate(-60deg);
+      }
+  
+  
+      50%{
+          transform: rotate(0deg);
+      }
+  
+      75%{
+          transform: rotate(0deg);
+      }
+  }
