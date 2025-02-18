@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #242323;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(1rem);
+    padding: 8% 0%;
+}
+
+.principal__conteudo__imagem{
+    width: 18.75rem;
+    text-align: center;
+    animation-name: pulse;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pulse{
+    0%{
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    25%{
+        transform: matrix(1.45, 0, 0, 1.45, 0, 0);
+    }
+    40%{
+        transform: matrix(1.25, 0, 0, 1.25, 0, 0);
+    }
+    55%{
+        transform: matrix(1.45, 0, 0, 1.45, 0, 0);
+    }
+    100%{
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__titulo{
+    color: white;
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: white;
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}

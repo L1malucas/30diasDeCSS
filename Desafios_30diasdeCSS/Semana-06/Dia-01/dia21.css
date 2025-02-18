@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #232323;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 14%;
+    flex-direction: column;
+}
+
+.principal__conteudo__esferas{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.principal__conteudo__esferas div:nth-child(1){
+    animation-name: firstmove;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes firstmove{
+    to{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-600%);
+    }
+    58%{
+        transform: translateY(-600%);
+    }
+    from{
+        transform: translateY(0%);
+    }
+}
+
+.principal__conteudo__esferas div:nth-child(2){
+    animation-name: secondmove;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes secondmove{
+    to{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-600%);
+    }
+    from{
+        transform: translateY(0%);
+    }
+}
+
+.principal__conteudo__esferas div:nth-child(3){
+    animation-name: thirtymove;
+    animation-duration: 1s;
+    animation-delay: 0.12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes thirtymove{
+    to{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-600%);
+    }
+    from{
+        transform: translateY(0%);
+    }
+}
+
+.principal__conteudo__esferas div:nth-child(4){
+    animation-name: fourtymove;
+    animation-duration: 0.95s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fourtymove{
+    to{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-600%);
+    }
+    from{
+        transform: translateY(0%);
+    }
+}
+
+.principal__conteudo__esferas div:nth-child(5){
+    animation-name: lastmove;
+    animation-duration: 0.95s;
+    animation-delay: 0.08s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lastmove{
+    to{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-600%);
+    }
+    from{
+        transform: translateY(0%);
+    }
+}
+
+.principal__conteudo__esferas__esfera{
+    padding: 1%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.principal__conteudo__base{
+    position: absolute;
+    padding: 0.24% 7.2%;
+    background-color: white;
+    transform: translate(200%, 220%);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__titulo{
+    color: rgb(255, 255, 255);
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}

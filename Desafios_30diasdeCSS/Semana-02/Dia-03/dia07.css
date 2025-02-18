@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: rgb(226, 43, 202);
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    padding: 8% 42%;
+}
+
+.principal__conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.125rem;
+}
+
+.principal__conteudo__caixa{
+    padding: 3.2rem;
+    background-color: white;
+    border-radius: 0.7rem;
+}
+
+.esquerdo__superior{
+    animation-name: movefirst;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(0.5, end);
+}
+
+@keyframes movefirst{
+   0%{
+        transform: translateX(0px);
+   }
+   25%{
+        transform: translateX(150px);
+   }
+   50%{
+        transform: translate(150px, 150px);
+   }
+   75%{
+        transform: translate(0px, 150px);
+   }
+   100%{
+        transform: translate(0px, 0px);
+   }
+}
+
+.direito__superior{
+    animation-name: movesecond;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(0.5, end);
+}
+
+@keyframes movesecond{
+    0%{
+        transform: translate(0px, 0px);
+   }
+   25%{
+        transform: translateY(150px);
+   }
+   50%{
+        transform: translate(-150px, 150px);
+   }
+   75%{
+        transform: translate(-150px, 0px);
+   }
+   100%{
+        transform: translate(0px, 0px);
+   }
+}
+
+.direito__inferior{
+    animation-name: lastmove;
+    animation-duration: 4s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(0.5, end);
+}
+
+@keyframes lastmove{
+    0%{
+        transform: translate(0px, 0px);
+   }
+   25%{
+        transform: translate(0px, -150px);
+   }
+   50%{
+        transform: translate(150px, -150px);
+   }
+   75%{
+        transform: translate(150px, 0px);
+   }
+   100%{
+        transform: translate(0px, 0px);
+   }
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__titulo{
+    color: white;
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: white;
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}

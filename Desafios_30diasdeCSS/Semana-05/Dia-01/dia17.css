@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #0b041c;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal__conteudo{
+        display: flex;
+        justify-content: center;
+        padding: 8%;
+    }
+
+    .principal__conteudo__item{
+        padding: 6%;
+        background-color: #156cba;
+        border-radius: 10%;
+        animation-name: flipobject;
+        animation-duration: 2.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes flipobject{
+        to{
+            transform: rotateX(0deg) rotateY(180deg);
+        }
+        50%{
+            transform: rotateX(170deg) rotateY(180deg) scaleY(1.1);
+        }
+        from{
+            transform: rotateX(170deg) rotateY(0deg);
+        }
+    }
+
+    .rodape{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9rem;
+    }
+
+    .rodape__titulo{
+        color: rgb(255, 255, 255);
+    }
+
+    .rodape__link{
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .rodape__link__logo{
+        width: 2rem;
+    }

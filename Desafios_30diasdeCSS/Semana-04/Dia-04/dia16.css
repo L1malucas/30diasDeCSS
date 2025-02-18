@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #232323;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+}
+
+.principal__conteudo__titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: white;   
+    padding: 2% 4%;
+    border: 2px solid white;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.principal__conteudo__titulo::before{
+    position: absolute;
+    content: "✅ Dia 16";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: rgb(0, 107, 14);
+    padding: 1.51% 4.5%;
+    background-color: rgba(152, 255, 152, 0.966);
+    transform: translate(-65px, -136px);
+    transition-duration: 1s;
+}
+
+.principal__conteudo__titulo:hover::before{
+    transform: translate(-65px, -32px);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.rodape__titulo{
+    color: rgb(255, 255, 255);
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}

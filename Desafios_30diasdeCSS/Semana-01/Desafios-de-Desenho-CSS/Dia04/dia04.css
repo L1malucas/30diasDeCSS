@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.botao__home{
+    text-decoration: none;
+    pointer-events: auto;
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+    color:#f4742c;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 0.2rem;
+    padding: 1%;
+}
+
+.principal__conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.principal__conteudo__arvore{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.principal__conteudo__copa{
+    padding: 8rem;
+    border-radius: 10rem;
+    background-color: rgb(0, 102, 39);
+    z-index: 4;
+}
+
+.principal__conteudo__tronco{
+    position: absolute;
+    padding: 10% 2%;
+    background-color: rgb(102, 54, 0);
+    transform: translate(5.6rem, 16rem);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    transform: translateY(16rem);
+}
+
+.rodape__titulo{
+    color: rgb(0, 0, 0);
+}
+
+.rodape__link{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.rodape__link__logo{
+    width: 2rem;
+}
